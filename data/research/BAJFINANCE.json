@@ -1,0 +1,307 @@
+{
+ "symbol": "BAJFINANCE",
+ "preparedAt": "2026-10-30T23:45:00+05:30",
+ "method": "Evidence extracted at build time from company investor presentations and earnings-call transcripts filed with BSE/NSE. Live mode re-derives this with the LLM extraction pipeline. No broker, news or model-knowledge inputs.",
+ "documents": {
+  "ip_q2fy27": {
+   "title": "Q2 FY27 investor presentation (NSE filing)",
+   "date": "2026-10-19",
+   "period": "Q2 FY27",
+   "type": "investor_presentation",
+   "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026172612_SEIntimation_InvestorPPT_19102026.pdf"
+  },
+  "ip_q4fy26": {
+   "title": "Q4 FY26 investor presentation (BSE filing)",
+   "date": "2026-04",
+   "period": "Q4 FY26",
+   "type": "investor_presentation",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/be6ffd5d-c69b-4fcf-8214-1a6f302c6794.pdf"
+  },
+  "cc_q4fy26": {
+   "title": "Q4 FY26 earnings-call transcript (BSE filing)",
+   "date": "2026-05",
+   "period": "Q4 FY26",
+   "type": "transcript",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a448b6b0-edb5-4b99-a122-d602950310af.pdf"
+  }
+ },
+ "business": {
+  "summary": "Diversified retail-led NBFC. Standalone AUM mix (Sep 2026) — Urban 41%, Rural 16%, SME 18%, Commercial 15%, Mortgage 10%; housing finance (BHFL) and broking (BFSL) sit in subsidiaries. Deposits fund 14% of consolidated borrowings.",
+  "segments": [
+   {
+    "name": "Urban",
+    "value": 41,
+    "period": "Sep 2026",
+    "doc": "ip_q2fy27",
+    "loc": "Executive summary — AUM mix",
+    "unit": "%"
+   },
+   {
+    "name": "SME",
+    "value": 18,
+    "period": "Sep 2026",
+    "doc": "ip_q2fy27",
+    "loc": "Executive summary — AUM mix",
+    "unit": "%"
+   },
+   {
+    "name": "Rural",
+    "value": 16,
+    "period": "Sep 2026",
+    "doc": "ip_q2fy27",
+    "loc": "Executive summary — AUM mix",
+    "unit": "%"
+   },
+   {
+    "name": "Commercial",
+    "value": 15,
+    "period": "Sep 2026",
+    "doc": "ip_q2fy27",
+    "loc": "Executive summary — AUM mix",
+    "unit": "%"
+   },
+   {
+    "name": "Mortgage",
+    "value": 10,
+    "period": "Sep 2026",
+    "doc": "ip_q2fy27",
+    "loc": "Executive summary — AUM mix",
+    "unit": "%"
+   }
+  ],
+  "evidence": [
+   {
+    "claim": "Consolidated AUM ₹5,84,624 cr at 30 Sep 2026, up 26% YoY.",
+    "doc": "ip_q2fy27",
+    "loc": "Q2 FY27 Executive summary — Consolidated"
+   },
+   {
+    "claim": "Deposits ₹69,754 cr = 14% of consolidated borrowings; cost of funds 7.31% in Q2.",
+    "doc": "ip_q2fy27",
+    "loc": "Liquidity and cost of funds"
+   }
+  ]
+ },
+ "guidance": [
+  {
+   "id": "fy27-aum",
+   "fy": "FY27",
+   "metric": "aum_growth",
+   "label": "AUM growth",
+   "low": 22,
+   "high": 24,
+   "unit": "%",
+   "givenIn": "Q4 FY26",
+   "date": "2026-04",
+   "type": "explicit",
+   "doc": "ip_q4fy26",
+   "loc": "Management assessment for FY27",
+   "note": "On the call management said 'confident of a 20% to 24%' — a wider range than the presentation."
+  },
+  {
+   "id": "fy27-opex",
+   "fy": "FY27",
+   "metric": "opex_to_nti_improvement_bps",
+   "label": "Opex-to-NTI improvement",
+   "low": 25,
+   "high": 40,
+   "unit": "bps",
+   "givenIn": "Q4 FY26",
+   "date": "2026-04",
+   "type": "explicit",
+   "doc": "ip_q4fy26",
+   "loc": "Management assessment for FY27",
+   "note": "Baseline 'current levels' interpreted by FINN as FY26 full-year opex/NTI (33.34%)."
+  },
+  {
+   "id": "fy27-credit",
+   "fy": "FY27",
+   "metric": "loan_loss_to_aum",
+   "label": "Net loan loss to avg AUF",
+   "low": 1.45,
+   "high": 1.6,
+   "unit": "%",
+   "givenIn": "Q4 FY26",
+   "date": "2026-04",
+   "type": "explicit",
+   "doc": "ip_q4fy26",
+   "loc": "Management assessment for FY27",
+   "lowerIsBetter": true
+  },
+  {
+   "id": "fy27-roe",
+   "fy": "FY27",
+   "metric": "roe",
+   "label": "Return on equity",
+   "low": 19,
+   "high": 20,
+   "unit": "%",
+   "givenIn": "Q4 FY26",
+   "date": "2026-05",
+   "type": "explicit",
+   "doc": "cc_q4fy26",
+   "loc": "CEO remarks — 'we continue to guide for 19% to 20%'"
+  },
+  {
+   "id": "fy27-profit",
+   "fy": "FY27",
+   "metric": "profit_growth",
+   "label": "Profit growth",
+   "low": null,
+   "high": null,
+   "unit": "%",
+   "givenIn": "Q4 FY26",
+   "date": "2026-04",
+   "type": "qualitative",
+   "doc": "ip_q4fy26",
+   "loc": "Management assessment for FY27",
+   "statement": "Optimistic about profit growth; on the call, AUM growth 'should lead to a little better growth in profitability'."
+  }
+ ],
+ "actuals": [
+  {
+   "metric": "aum_growth",
+   "scope": "quarter_yoy",
+   "period": "Q2 FY27",
+   "value": 26,
+   "unit": "%",
+   "doc": "ip_q2fy27",
+   "loc": "Executive summary — AUM up 26% to ₹5,84,624 cr"
+  },
+  {
+   "metric": "aum_growth",
+   "scope": "fy",
+   "period": "FY26",
+   "value": 22,
+   "unit": "%",
+   "doc": "ip_q4fy26",
+   "loc": "Balance sheet and business metrics"
+  },
+  {
+   "metric": "profit_growth",
+   "scope": "quarter_yoy",
+   "period": "Q2 FY27",
+   "value": 29,
+   "unit": "%",
+   "doc": "ip_q2fy27",
+   "loc": "Financial summary — PAT ₹6,367 cr vs ₹4,948 cr"
+  },
+  {
+   "metric": "profit_growth",
+   "scope": "ytd",
+   "period": "H1 FY27",
+   "value": 28,
+   "unit": "%",
+   "doc": "ip_q2fy27",
+   "loc": "Financial summary — PAT ₹12,447 cr vs ₹9,713 cr"
+  },
+  {
+   "metric": "loan_loss_to_aum",
+   "scope": "quarter",
+   "period": "Q2 FY27",
+   "value": 1.32,
+   "unit": "%",
+   "doc": "ip_q2fy27",
+   "loc": "Financial summary footnote",
+   "note": "Company metric EXCLUDES a ₹337 cr management overlay."
+  },
+  {
+   "metric": "loan_loss_to_aum",
+   "scope": "quarter",
+   "period": "Q2 FY27 (incl. overlay)",
+   "value": 1.56,
+   "unit": "%",
+   "doc": "ip_q2fy27",
+   "loc": "derived: 1.32% × ₹2,166 cr / ₹1,829 cr",
+   "derived": true
+  },
+  {
+   "metric": "opex_to_nti",
+   "scope": "quarter",
+   "period": "Q2 FY27",
+   "value": 33.02,
+   "unit": "%",
+   "doc": "ip_q2fy27",
+   "loc": "derived: opex ₹5,275 cr / NTI ₹15,974 cr",
+   "derived": true
+  },
+  {
+   "metric": "opex_to_nti",
+   "scope": "ytd",
+   "period": "H1 FY27",
+   "value": 33.21,
+   "unit": "%",
+   "doc": "ip_q2fy27",
+   "loc": "derived: opex ₹10,361 cr / NTI ₹31,198 cr",
+   "derived": true
+  },
+  {
+   "metric": "opex_to_nti",
+   "scope": "fy",
+   "period": "FY26",
+   "value": 33.34,
+   "unit": "%",
+   "doc": "ip_q2fy27",
+   "loc": "derived: opex ₹17,776 cr / NTI ₹53,324 cr (FY26 column)",
+   "derived": true
+  }
+ ],
+ "kpis": [
+  {
+   "label": "GNPA / NNPA (%)",
+   "series": [
+    {
+     "period": "Q4 FY26",
+     "value": 1.01,
+     "doc": "cc_q4fy26",
+     "loc": "CEO remarks"
+    },
+    {
+     "period": "Q2 FY27",
+     "value": 1.06,
+     "doc": "ip_q2fy27",
+     "loc": "Credit cost — asset quality"
+    }
+   ],
+   "unit": "%"
+  },
+  {
+   "label": "Cost of funds (%)",
+   "series": [
+    {
+     "period": "Q2 FY27",
+     "value": 7.31,
+     "doc": "ip_q2fy27",
+     "loc": "Liquidity and cost of funds"
+    }
+   ],
+   "unit": "%"
+  }
+ ],
+ "commentary": [
+  {
+   "period": "Q4 FY26",
+   "theme": "Credit",
+   "tone": "positive",
+   "text": "Said early-vintage performance (3/6/9 months-on-book) gave a 'reasonably high degree of optimism' on FY27 credit cost; expected MSME to return to double-digit growth by Q2–Q3 FY27.",
+   "doc": "cc_q4fy26",
+   "loc": "CEO remarks"
+  },
+  {
+   "period": "Q2 FY27",
+   "theme": "Credit",
+   "tone": "positive",
+   "text": "Called it an excellent quarter across AUM, credit cost and profit, but booked a ₹337 cr 'prudent management and macro-economic provision' — headline credit cost is quoted excluding it.",
+   "doc": "ip_q2fy27",
+   "loc": "Executive summary; Credit cost"
+  },
+  {
+   "period": "Q2 FY27",
+   "theme": "Volume",
+   "tone": "neutral",
+   "text": "New loans booked grew 11% YoY to 13.45 MM — well below the 26% AUM growth, so growth is coming from ticket size / mix rather than loan count.",
+   "doc": "ip_q2fy27",
+   "loc": "Executive summary item 3"
+  }
+ ]
+}

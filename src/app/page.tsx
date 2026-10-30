@@ -1,69 +1,56 @@
-import Image from "next/image";
+import Link from "next/link";
+import { buildBriefing } from "@/lib/pipeline/briefing";
+import { BriefClient } from "@/components/BriefClient";
+import { ProvenanceChip } from "@/components/ui";
 
-export default function Home() {
+export const dynamic = "force-dynamic";
+export const maxDuration = 60;
+
+const WINDOWS = [{ h: 24, label: "24h" }, { h: 72, label: "3 days" }, { h: 168, label: "7 days" }, { h: 720, label: "30 days" }];
+
+export default async function BriefPage({ searchParams }: { searchParams: Promise<{ w?: string }> }) {
+  const { w } = await searchParams;
+  const hours = WINDOWS.some((x) => String(x.h) === w) ? Number(w) : 24;
+  const b = await buildBriefing(hours);
+  const ref = new Date(b.referenceTime);
+  const day = ref.toLocaleDateString("en-IN", { weekday: "long", day: "numeric", month: "long", timeZone: "Asia/Kolkata" });
+  const time = ref.toLocaleTimeString("en-IN", { hour: "2-digit", minute: "2-digit", timeZone: "Asia/Kolkata" });
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div>
+      <div className="flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <div className="eyebrow">Portfolio brief · 15 holdings</div>
+          <h1 className="mt-1 text-[24px] font-medium tracking-tight sm:text-[28px]">{day}</h1>
+          <div className="mt-0.5 text-[12.5px] text-muted">As of {time} IST{b.mode === "snapshot" ? " · recorded snapshot" : ""}</div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <div className="flex flex-wrap gap-1.5">
+          {b.sources.map((s, i) => <ProvenanceChip key={s.provider + i} p={s} compact label={["Filings", "Prices", "Financials"][i]} />)}
         </div>
-      </main>
+      </div>
+
+      {b.mode === "snapshot" && (
+        <details className="mt-4 rounded-md border border-accent/25 bg-accent/[0.06] px-3 py-2 text-[12.5px] leading-relaxed text-ink/85">
+          <summary><span className="font-medium text-accent">Recorded snapshot</span> <span className="text-muted">· real filings &amp; financials, 30 Oct 23:30 IST</span> <span className="chev ml-1 text-faint">›</span></summary>
+          <p className="mt-1.5 text-muted">Live exchange and price sources were unreachable from this deployment, so FINN is running on filings and financials recorded from screener.in. Nothing here is synthetic — every item links to its BSE filing. Price-volume history (for volume alerts) is live-only.</p>
+        </details>
+      )}
+
+      <nav className="mt-5 flex gap-1 overflow-x-auto scrollbar-none" aria-label="Digest window">
+        {WINDOWS.map((x) => {
+          const c = b.windowCounts.find((k) => k.hours === x.h);
+          const on = x.h === hours;
+          return (
+            <Link key={x.h} href={x.h === 24 ? "/" : `/?w=${x.h}`} scroll={false} aria-current={on ? "true" : undefined}
+              className={`flex shrink-0 items-center gap-2 rounded-md border px-3 py-1.5 text-[13px] transition-colors ${on ? "border-line2 bg-panel2 text-ink" : "border-transparent text-muted hover:text-ink"}`}>
+              {x.label}
+              {c && <span className="num flex items-center gap-1 text-[11px] text-faint" title={`${c.high} high priority · ${c.surfaced} surfaced`}>{c.high > 0 && <span className="rounded bg-high/15 px-1 text-high">{c.high}</span>}{c.surfaced}</span>}
+            </Link>
+          );
+        })}
+      </nav>
+
+      <BriefClient briefing={b} hours={hours} />
     </div>
   );
 }

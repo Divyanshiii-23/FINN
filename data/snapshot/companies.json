@@ -1,0 +1,5043 @@
+{
+ "capturedAt": "2026-10-30T23:30:00+05:30",
+ "source": "screener.in company pages (consolidated), captured via web reader",
+ "companies": {
+  "RELIANCE": {
+   "symbol": "RELIANCE",
+   "bse": "500325",
+   "name": "Reliance Industries",
+   "sector": "Conglomerate · Energy, Retail, Telecom",
+   "kind": "corporate",
+   "source": {
+    "url": "https://www.screener.in/company/RELIANCE/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 1165,
+    "asOfText": "30 Oct - close price",
+    "changePct": -0.21,
+    "kind": "close",
+    "date": "2026-10-30"
+   },
+   "quarters": {
+    "headers": [
+     "Jun 2023",
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026"
+    ],
+    "rows": {
+     "Sales": [
+      207559,
+      231886,
+      225086,
+      236533,
+      231784,
+      231535,
+      239986,
+      261388,
+      243632,
+      254623,
+      264905,
+      294059,
+      309468
+     ],
+     "Expenses": [
+      169466,
+      190918,
+      184430,
+      194017,
+      193019,
+      192477,
+      196197,
+      217556,
+      200727,
+      208738,
+      218887,
+      249918,
+      261951
+     ],
+     "Operating Profit": [
+      38093,
+      40968,
+      40656,
+      42516,
+      38765,
+      39058,
+      43789,
+      43832,
+      42905,
+      45885,
+      46018,
+      44141,
+      47517
+     ],
+     "Other Income": [
+      3813,
+      3841,
+      3869,
+      4534,
+      3983,
+      4876,
+      4214,
+      4905,
+      15119,
+      4482,
+      4914,
+      4447,
+      6550
+     ],
+     "Interest": [
+      5837,
+      5731,
+      5789,
+      5761,
+      5918,
+      6017,
+      6179,
+      6155,
+      7036,
+      6827,
+      6613,
+      6585,
+      8337
+     ],
+     "Depreciation": [
+      11775,
+      12585,
+      12903,
+      13569,
+      13596,
+      12880,
+      13181,
+      13479,
+      13842,
+      14416,
+      14622,
+      14808,
+      15100
+     ],
+     "Profit before tax": [
+      24294,
+      26493,
+      25833,
+      27720,
+      23234,
+      25037,
+      28643,
+      29103,
+      37146,
+      29124,
+      29697,
+      27195,
+      30630
+     ],
+     "Net Profit": [
+      18258,
+      19878,
+      19641,
+      21243,
+      17445,
+      19323,
+      21930,
+      22611,
+      30783,
+      22092,
+      22290,
+      20589,
+      23196
+     ],
+     "EPS in Rs": [
+      11.83,
+      12.85,
+      12.76,
+      14.01,
+      11.19,
+      12.24,
+      13.7,
+      14.34,
+      19.95,
+      13.42,
+      13.78,
+      12.54,
+      15.48
+     ]
+    }
+   },
+   "annual": {
+    "headers": [
+     "Mar 2015",
+     "Mar 2016",
+     "Mar 2017",
+     "Mar 2018",
+     "Mar 2019",
+     "Mar 2020",
+     "Mar 2021",
+     "Mar 2022",
+     "Mar 2023",
+     "Mar 2024",
+     "Mar 2025",
+     "Mar 2026"
+    ],
+    "pl": {
+     "Sales": [
+      374372,
+      272583,
+      303954,
+      390823,
+      568337,
+      596679,
+      466307,
+      694673,
+      876396,
+      899041,
+      962820,
+      1055780
+     ],
+     "Expenses": [
+      336923,
+      230802,
+      257647,
+      326508,
+      484087,
+      507413,
+      385517,
+      586092,
+      734078,
+      736543,
+      797222,
+      876715
+     ],
+     "Operating Profit": [
+      37449,
+      41781,
+      46307,
+      64315,
+      84250,
+      89266,
+      80790,
+      108581,
+      142318,
+      162498,
+      165598,
+      179065
+     ],
+     "Other Income": [
+      8528,
+      12212,
+      9222,
+      9869,
+      8406,
+      8570,
+      22432,
+      19600,
+      12020,
+      15792,
+      17824,
+      28846
+     ],
+     "Interest": [
+      3316,
+      3691,
+      3849,
+      8052,
+      16495,
+      22027,
+      21189,
+      14584,
+      19571,
+      23118,
+      24269,
+      27061
+     ],
+     "Depreciation": [
+      11547,
+      11565,
+      11646,
+      16706,
+      20934,
+      22203,
+      26572,
+      29782,
+      40303,
+      50832,
+      53136,
+      57688
+     ],
+     "Profit before tax": [
+      31114,
+      38737,
+      40034,
+      49426,
+      55227,
+      53606,
+      55461,
+      83815,
+      94464,
+      104340,
+      106017,
+      123162
+     ],
+     "Net Profit": [
+      23640,
+      29861,
+      29833,
+      36080,
+      39837,
+      39880,
+      53739,
+      67845,
+      74088,
+      79020,
+      81309,
+      95754
+     ],
+     "EPS in Rs": [
+      17.07,
+      21.51,
+      21.55,
+      26.69,
+      29.28,
+      29.1,
+      38.75,
+      44.87,
+      49.29,
+      51.45,
+      51.47,
+      59.69
+     ]
+    },
+    "bs": {
+     "Equity Capital": [
+      2943,
+      2948,
+      2959,
+      5922,
+      5926,
+      6339,
+      6445,
+      6765,
+      6766,
+      6766,
+      13532,
+      13532
+     ],
+     "Reserves": [
+      215556,
+      228608,
+      260750,
+      287584,
+      381186,
+      442827,
+      693727,
+      772720,
+      709106,
+      786715,
+      829668,
+      890498
+     ],
+     "Borrowings": [
+      168251,
+      194714,
+      217475,
+      239843,
+      307714,
+      355133,
+      278962,
+      319158,
+      451664,
+      350719,
+      374313,
+      402962
+     ],
+     "Other Liabilities": [
+      117736,
+      172727,
+      225618,
+      277924,
+      302804,
+      358716,
+      340931,
+      399979,
+      438346,
+      610848,
+      732200,
+      870554
+     ],
+     "Total Liabilities": [
+      504486,
+      598997,
+      706802,
+      811273,
+      997630,
+      1163015,
+      1320065,
+      1498622,
+      1605882,
+      1755048,
+      1949713,
+      2177546
+     ],
+     "Fixed Assets": [
+      156458,
+      184910,
+      198526,
+      403885,
+      398374,
+      532658,
+      541258,
+      627798,
+      724805,
+      779985,
+      999393,
+      1124795
+     ],
+     "CWIP": [
+      166462,
+      228697,
+      324837,
+      187022,
+      179463,
+      109106,
+      125953,
+      172506,
+      293752,
+      338855,
+      262358,
+      237686
+     ],
+     "Investments": [
+      76451,
+      84015,
+      82899,
+      82862,
+      235635,
+      276767,
+      364828,
+      394264,
+      235560,
+      225672,
+      242381,
+      248332
+     ],
+     "Other Assets": [
+      105115,
+      101375,
+      100540,
+      137504,
+      184158,
+      244484,
+      288026,
+      304054,
+      351765,
+      410536,
+      445581,
+      566733
+     ]
+    },
+    "cf": {
+     "Cash from Operating Activity": [
+      34374,
+      38134,
+      49550,
+      71459,
+      42346,
+      94877,
+      26958,
+      110654,
+      115032,
+      158788,
+      178703,
+      192113
+     ],
+     "Cash from Investing Activity": [
+      -64706,
+      -36186,
+      -66201,
+      -68192,
+      -94507,
+      -72497,
+      -142385,
+      -109162,
+      -93001,
+      -113581,
+      -137535,
+      -101089
+     ],
+     "Cash from Financing Activity": [
+      8444,
+      -3210,
+      8617,
+      -2001,
+      55906,
+      -2541,
+      101904,
+      17289,
+      10455,
+      -16646,
+      -31891,
+      -51549
+     ],
+     "Free Cash Flow": [
+      -28588,
+      -8420,
+      -27077,
+      -1495,
+      -50431,
+      19324,
+      -76560,
+      13646,
+      -16770,
+      21212,
+      41079,
+      70023
+     ]
+    },
+    "ratios": {
+     "Debtor Days": [
+      5,
+      6,
+      10,
+      16,
+      19,
+      12,
+      15,
+      12,
+      12,
+      13,
+      16,
+      20
+     ],
+     "Inventory Days": [
+      66,
+      90,
+      84,
+      83,
+      63,
+      67,
+      102,
+      83,
+      87,
+      95,
+      85,
+      88
+     ],
+     "Days Payable": [
+      74,
+      117,
+      132,
+      146,
+      100,
+      87,
+      136,
+      123,
+      91,
+      111,
+      108,
+      84
+     ],
+     "Cash Conversion Cycle": [
+      -2,
+      -21,
+      -38,
+      -46,
+      -18,
+      -9,
+      -19,
+      -27,
+      7,
+      -3,
+      -8,
+      25
+     ],
+     "ROCE %": [
+      9,
+      10,
+      10,
+      11,
+      12,
+      11,
+      8,
+      8,
+      9,
+      10,
+      10,
+      10
+     ]
+    }
+   },
+   "announcements": [
+    {
+     "date": "2026-10-30",
+     "title": "Investor Presentation on Q2 and H1 FY27 unaudited results",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0dc8ebe7-5e2d-4946-85ee-1e536c461a71.pdf"
+    },
+    {
+     "date": "2026-10-30",
+     "title": "Press Release: record Q2 FY27 PAT of ₹29,550 crore; Jio IPO completed",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aacc5fc7-25e5-4901-b682-d9911fe1d21b.pdf"
+    },
+    {
+     "date": "2026-10-30",
+     "title": "Unaudited Financial Results (Consolidated And Standalone) For The Quarter And Half Year Ended September 30, 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=880087f6-7ecc-40a9-8cac-de48d4616b25.pdf"
+    },
+    {
+     "date": "2026-10-30",
+     "title": "Board Meeting Outcome For Unaudited Financial Results and Issuance of Non-Convertible Debentures",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d4cb3ed-a184-4662-91fc-f4112ce354b7.pdf"
+    },
+    {
+     "date": "2026-10-29",
+     "title": "Disclosure Under Regulation 30 - Voluntary Strike Off Of Hamleys (Franchising) Limited",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc9fc5d1-9c04-4a88-b807-79d27dd63697.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "Oct 2026",
+     "transcript": null,
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0dc8ebe7-5e2d-4946-85ee-1e536c461a71.pdf"
+    },
+    {
+     "period": "Jul 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01d1656c-cf53-4d52-94c3-7ed0edd50271.pdf"
+    },
+    {
+     "period": "Apr 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971d8c86-397a-4780-b843-5a84d3006d0b.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5145c56f-ff81-4812-9663-f9b2461c4b2c.pdf"
+    },
+    {
+     "period": "Jan 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26290395-526a-441f-a347-c8ac12e4adf3.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0e06e07-5a3e-4bc0-a6a6-76635bc53238.pdf"
+    }
+   ],
+   "annualReports": [
+    {
+     "year": "2026",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf"
+    },
+    {
+     "year": "2025",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/468b09a3-a212-4066-bbaa-4b0ba524d2ce.pdf"
+    },
+    {
+     "year": "2024",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d473280d-1c2b-4037-8ff9-dfbb82aa2c7e.pdf"
+    }
+   ],
+   "about": null
+  },
+  "HDFCBANK": {
+   "symbol": "HDFCBANK",
+   "bse": "500180",
+   "name": "HDFC Bank",
+   "sector": "Private sector bank",
+   "kind": "bank",
+   "source": {
+    "url": "https://www.screener.in/company/HDFCBANK/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 693,
+    "asOfText": "30 Oct - close price",
+    "changePct": 1.39,
+    "kind": "close",
+    "date": "2026-10-30"
+   },
+   "quarters": {
+    "headers": [
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026",
+     "Sep 2026"
+    ],
+    "rows": {
+     "Revenue": [
+      75039,
+      78008,
+      79434,
+      81546,
+      83002,
+      85040,
+      86779,
+      87372,
+      86994,
+      87067,
+      87182,
+      90575,
+      95132
+     ],
+     "Interest": [
+      41250,
+      43242,
+      43692,
+      44580,
+      45414,
+      46914,
+      46986,
+      47709,
+      46741,
+      45821,
+      45220,
+      47626,
+      50667
+     ],
+     "Expenses": [
+      45349,
+      50530,
+      62938,
+      49690,
+      52074,
+      41307,
+      47709,
+      64497,
+      45161,
+      54145,
+      44028,
+      58292,
+      50029
+     ],
+     "Financing Profit": [
+      -11560,
+      -15764,
+      -27196,
+      -12723,
+      -14487,
+      -3181,
+      -7916,
+      -24833,
+      -4908,
+      -12899,
+      -2066,
+      -15342,
+      -5565
+     ],
+     "Other Income": [
+      32528,
+      37007,
+      44958,
+      35450,
+      38455,
+      27154,
+      33489,
+      45683,
+      31567,
+      39860,
+      29737,
+      42535,
+      34227
+     ],
+     "Depreciation": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     "Profit before tax": [
+      20967,
+      21243,
+      17761,
+      22727,
+      23968,
+      23973,
+      25573,
+      20850,
+      26659,
+      26961,
+      27672,
+      27193,
+      28663
+     ],
+     "Net Profit": [
+      17312,
+      17718,
+      18013,
+      17188,
+      18627,
+      18340,
+      19285,
+      17090,
+      20364,
+      20691,
+      21074,
+      20383,
+      21537
+     ],
+     "EPS in Rs": [
+      11.09,
+      11.37,
+      11.6,
+      10.83,
+      11.68,
+      11.54,
+      12.31,
+      10.6,
+      12.76,
+      12.87,
+      13.22,
+      12.5,
+      13.43
+     ]
+    }
+   },
+   "annual": null,
+   "announcements": [
+    {
+     "date": "2026-10-30",
+     "title": "Allotment of ESOP/ESPS: 46,75,598 equity shares on ESOP/RSU exercise",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38dab330-ca6e-4311-9679-7b47cebb7993.pdf"
+    },
+    {
+     "date": "2026-10-27",
+     "title": "Change in MD and CEO: Sashidhar Jagdishan steps down; Anup Bagchi becomes MD and CEO from Oct 27, 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5b2d06f-fea8-4dea-aa03-84674215a0fd.pdf"
+    },
+    {
+     "date": "2026-10-24",
+     "title": "Grant of 13,02,379 stock options at Rs. 692.80 under ESOS Plan H-2024",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e0bab4c-fcd5-45ce-8a91-a3dcf5dac9e9.pdf"
+    },
+    {
+     "date": "2026-10-23",
+     "title": "Analyst/Investor Meet Outcome: Q2 FY27 earnings call transcript released",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf"
+    },
+    {
+     "date": "2026-10-22",
+     "title": "Allotment of ESOP/ESPS: 91,38,522 equity shares on ESOP/RSU exercise",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=536a781d-6af5-4dde-840e-5e1420f5157f.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "Oct 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7e45614-ae12-4bb9-b92d-623b3a63f166.pdf",
+     "ppt": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/about-us/financial-results/2026-2027/quarter-2/q2fy27-earnings-presentation.pdf"
+    },
+    {
+     "period": "Jul 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=509cc499-6cb1-4d9f-8de9-9c7de6c70eef.pdf",
+     "ppt": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/about-us/financial-results/2026-2027/quarter-1/q1fy27-earnings-presentation.pdf"
+    },
+    {
+     "period": "Apr 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77abbbb-954a-4221-8240-67bf0da6ba1c.pdf",
+     "ppt": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/about-us/financial-results/2025-2026/quarter-4/q4fy26-earnings-presentation.pdf"
+    },
+    {
+     "period": "Jan 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e45f8a0-0fe6-40a3-8e5a-51c53713e6f0.pdf",
+     "ppt": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/financial-results/2025-2026/quarter-3/Q3FY26-earnings-presentation.pdf"
+    }
+   ],
+   "annualReports": [],
+   "about": null
+  },
+  "INFY": {
+   "symbol": "INFY",
+   "bse": "500209",
+   "name": "Infosys",
+   "sector": "IT services",
+   "kind": "corporate",
+   "source": {
+    "url": "https://www.screener.in/company/INFY/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 1146,
+    "asOfText": "29 Oct - close price",
+    "changePct": 2.08,
+    "kind": "close",
+    "date": "2026-10-29"
+   },
+   "quarters": {
+    "headers": [
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026",
+     "Sep 2026"
+    ],
+    "rows": {
+     "Sales": [
+      38994,
+      38821,
+      37923,
+      39315,
+      40986,
+      41764,
+      40925,
+      42279,
+      44490,
+      45479,
+      46402,
+      48211,
+      49244
+     ],
+     "Expenses": [
+      29554,
+      29684,
+      29139,
+      29878,
+      31177,
+      31649,
+      31051,
+      32336,
+      33955,
+      34845,
+      35235,
+      36802,
+      37555
+     ],
+     "Operating Profit": [
+      9440,
+      9137,
+      8784,
+      9437,
+      9809,
+      10115,
+      9874,
+      9943,
+      10535,
+      10634,
+      11167,
+      11409,
+      11689
+     ],
+     "Other Income": [
+      632,
+      789,
+      2729,
+      838,
+      712,
+      859,
+      1190,
+      1042,
+      982,
+      -150,
+      1159,
+      984,
+      848
+     ],
+     "Interest": [
+      138,
+      131,
+      110,
+      105,
+      108,
+      101,
+      102,
+      105,
+      106,
+      100,
+      105,
+      119,
+      115
+     ],
+     "Depreciation": [
+      1166,
+      1176,
+      1163,
+      1149,
+      1160,
+      1203,
+      1299,
+      1140,
+      1182,
+      1155,
+      1424,
+      1246,
+      1359
+     ],
+     "Profit before tax": [
+      8768,
+      8619,
+      10240,
+      9021,
+      9253,
+      9670,
+      9663,
+      9740,
+      10229,
+      9229,
+      10797,
+      11028,
+      11063
+     ],
+     "Net Profit": [
+      6215,
+      6113,
+      7975,
+      6374,
+      6516,
+      6822,
+      7038,
+      6924,
+      7375,
+      6666,
+      8509,
+      7775,
+      7838
+     ],
+     "EPS in Rs": [
+      14.97,
+      14.71,
+      19.2,
+      15.34,
+      15.67,
+      16.39,
+      16.93,
+      16.66,
+      17.73,
+      16.41,
+      20.96,
+      19.15,
+      19.28
+     ]
+    }
+   },
+   "annual": {
+    "headers": [
+     "Mar 2015",
+     "Mar 2016",
+     "Mar 2017",
+     "Mar 2018",
+     "Mar 2019",
+     "Mar 2020",
+     "Mar 2021",
+     "Mar 2022",
+     "Mar 2023",
+     "Mar 2024",
+     "Mar 2025",
+     "Mar 2026"
+    ],
+    "pl": {
+     "Sales": [
+      53319,
+      62441,
+      68484,
+      70522,
+      82675,
+      90791,
+      100472,
+      121641,
+      146767,
+      153670,
+      162990,
+      178650
+     ],
+     "Expenses": [
+      38436,
+      45362,
+      49880,
+      51700,
+      62505,
+      68524,
+      72583,
+      90150,
+      111637,
+      117245,
+      123754,
+      136370
+     ],
+     "Operating Profit": [
+      14883,
+      17079,
+      18604,
+      18822,
+      20170,
+      22267,
+      27889,
+      31491,
+      35130,
+      36425,
+      39236,
+      42280
+     ],
+     "Other Income": [
+      3430,
+      3120,
+      3050,
+      3311,
+      2882,
+      2803,
+      2201,
+      2295,
+      2701,
+      4711,
+      3600,
+      3033
+     ],
+     "Interest": [
+      12,
+      0,
+      0,
+      0,
+      0,
+      170,
+      195,
+      200,
+      284,
+      470,
+      416,
+      416
+     ],
+     "Depreciation": [
+      1017,
+      1459,
+      1703,
+      1863,
+      2011,
+      2893,
+      3267,
+      3476,
+      4225,
+      4678,
+      4812,
+      4902
+     ],
+     "Profit before tax": [
+      17284,
+      18740,
+      19951,
+      20270,
+      21041,
+      22007,
+      26628,
+      30110,
+      33322,
+      35988,
+      37608,
+      39995
+     ],
+     "Net Profit": [
+      12372,
+      13489,
+      14353,
+      16029,
+      15410,
+      16639,
+      19423,
+      22146,
+      24108,
+      26248,
+      26750,
+      29474
+     ],
+     "EPS in Rs": [
+      26.93,
+      29.36,
+      31.24,
+      36.69,
+      35.26,
+      38.96,
+      45.42,
+      52.56,
+      58.08,
+      63.2,
+      64.32,
+      72.59
+     ]
+    },
+    "bs": {
+     "Equity Capital": [
+      572,
+      1144,
+      1144,
+      1088,
+      2170,
+      2122,
+      2124,
+      2098,
+      2069,
+      2071,
+      2073,
+      2024
+     ],
+     "Reserves": [
+      50164,
+      60600,
+      67838,
+      63835,
+      62778,
+      63328,
+      74227,
+      73252,
+      73338,
+      86045,
+      93745,
+      90828
+     ],
+     "Borrowings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      4633,
+      5325,
+      5474,
+      8299,
+      8359,
+      8227,
+      9176
+     ],
+     "Other Liabilities": [
+      15553,
+      13354,
+      14166,
+      14426,
+      19118,
+      21717,
+      25835,
+      35905,
+      40890,
+      39545,
+      43750,
+      52260
+     ],
+     "Total Liabilities": [
+      66289,
+      75098,
+      83148,
+      79349,
+      84066,
+      91800,
+      107511,
+      116729,
+      124596,
+      136020,
+      147795,
+      154288
+     ],
+     "Fixed Assets": [
+      11346,
+      13386,
+      14179,
+      12574,
+      15710,
+      23789,
+      25505,
+      25800,
+      29225,
+      27622,
+      30961,
+      33770
+     ],
+     "CWIP": [
+      776,
+      960,
+      1365,
+      1606,
+      1388,
+      954,
+      922,
+      416,
+      288,
+      293,
+      814,
+      526
+     ],
+     "Investments": [
+      2270,
+      1892,
+      16423,
+      12163,
+      11261,
+      8792,
+      14205,
+      20324,
+      19478,
+      24623,
+      23541,
+      21880
+     ],
+     "Other Assets": [
+      51897,
+      58860,
+      51181,
+      53006,
+      55707,
+      58265,
+      66879,
+      70189,
+      75605,
+      83482,
+      92479,
+      98112
+     ]
+    },
+    "cf": {
+     "Cash from Operating Activity": [
+      8353,
+      10028,
+      11531,
+      13218,
+      14841,
+      17003,
+      23224,
+      23885,
+      22467,
+      25210,
+      35694,
+      33986
+     ],
+     "Cash from Investing Activity": [
+      999,
+      -885,
+      -14664,
+      4533,
+      -632,
+      -331,
+      -7373,
+      -6485,
+      -1071,
+      -5093,
+      -1864,
+      3546
+     ],
+     "Cash from Financing Activity": [
+      -4935,
+      -6813,
+      -6939,
+      -20505,
+      -14512,
+      -17591,
+      -9786,
+      -24642,
+      -26695,
+      -17504,
+      -24161,
+      -39786
+     ],
+     "Free Cash Flow": [
+      6106,
+      7305,
+      8771,
+      11220,
+      12396,
+      13696,
+      21117,
+      21724,
+      19888,
+      23009,
+      33457,
+      31259
+     ]
+    },
+    "ratios": {
+     "Debtor Days": [
+      66,
+      66,
+      66,
+      68,
+      65,
+      74,
+      70,
+      68,
+      63,
+      72,
+      70,
+      72
+     ],
+     "Cash Conversion Cycle": [
+      66,
+      66,
+      66,
+      68,
+      65,
+      74,
+      70,
+      68,
+      63,
+      72,
+      70,
+      72
+     ],
+     "ROCE %": [
+      36,
+      33,
+      30,
+      30,
+      32,
+      32,
+      35,
+      37,
+      40,
+      40,
+      38,
+      40
+     ]
+    }
+   },
+   "announcements": [
+    {
+     "date": "2026-10-29",
+     "title": "Newspaper Publication",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0335049c-de81-4e49-b02a-5887dfa42644.pdf"
+    },
+    {
+     "date": "2026-10-29",
+     "title": "Winners Of Qorus-Infosys Finacle Banking Innovation Awards 2026 Announced",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=35b12a6d-e165-42d3-a0d1-cbe42fe2a99f.pdf"
+    },
+    {
+     "date": "2026-10-28",
+     "title": "Earnings Call Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf"
+    },
+    {
+     "date": "2026-10-28",
+     "title": "Canada's UNI Financial Cooperation Advances Branch Modernization With Infosys Finacle Universal Banker",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e740e1c4-75bc-4392-808c-a3323d612194.pdf"
+    },
+    {
+     "date": "2026-10-27",
+     "title": "Investor Conference",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=198a321f-ab50-4557-8e45-2905e7ff1a2b.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "Oct 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7982fc61-7765-4981-ab3d-6aec36ba2137.pdf",
+     "ppt": null
+    },
+    {
+     "period": "Jul 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f8af86-dc92-49dc-a7cf-ecce287f8cce.pdf",
+     "ppt": null
+    },
+    {
+     "period": "Apr 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab7badf-388c-4dab-bfcc-3e128677734c.pdf",
+     "ppt": null
+    },
+    {
+     "period": "Jan 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=373b3501-e2a7-4ba4-bdd1-83f6bc21c25c.pdf",
+     "ppt": null
+    },
+    {
+     "period": "Oct 2025",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf4a6179-8e43-4959-b055-91f1f7f4f076.pdf",
+     "ppt": null
+    }
+   ],
+   "annualReports": [
+    {
+     "year": "2026",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/19dd605c-2b6b-4084-8dca-9d578a3eb7a0.pdf"
+    },
+    {
+     "year": "2025",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4527f4d2-dac4-4528-a1dc-5070fd9e140d.pdf"
+    }
+   ],
+   "about": "Consulting, technology, outsourcing and digital-transformation services; India's second-largest IT services company."
+  },
+  "BHARTIARTL": {
+   "symbol": "BHARTIARTL",
+   "bse": "532454",
+   "name": "Bharti Airtel",
+   "sector": "Telecom",
+   "kind": "corporate",
+   "source": {
+    "url": "https://www.screener.in/company/BHARTIARTL/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 1974,
+    "asOfText": "30 Oct - close price",
+    "changePct": 0.08,
+    "kind": "close",
+    "date": "2026-10-30"
+   },
+   "quarters": {
+    "headers": [
+     "Jun 2023",
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026"
+    ],
+    "rows": {
+     "Sales": [
+      37440,
+      37044,
+      37900,
+      37599,
+      38506,
+      41473,
+      45129,
+      47876,
+      49463,
+      52145,
+      53982,
+      55383,
+      58539
+     ],
+     "Expenses": [
+      17842,
+      17530,
+      18085,
+      18234,
+      18799,
+      19627,
+      20533,
+      20867,
+      21624,
+      22584,
+      23199,
+      23892,
+      25236
+     ],
+     "Operating Profit": [
+      19598,
+      19514,
+      19815,
+      19365,
+      19708,
+      21846,
+      24597,
+      27009,
+      27839,
+      29561,
+      30783,
+      31492,
+      33303
+     ],
+     "Other Income": [
+      -2478,
+      -654,
+      1013,
+      -1308,
+      2010,
+      475,
+      9675,
+      403,
+      592,
+      809,
+      562,
+      -2198,
+      661
+     ],
+     "Interest": [
+      5614,
+      5186,
+      6645,
+      5203,
+      5152,
+      5424,
+      5676,
+      5502,
+      5461,
+      4866,
+      5623,
+      5606,
+      5956
+     ],
+     "Depreciation": [
+      9654,
+      9734,
+      10074,
+      10075,
+      10540,
+      11000,
+      11704,
+      12326,
+      12465,
+      13182,
+      13420,
+      13644,
+      14235
+     ],
+     "Profit before tax": [
+      1853,
+      3940,
+      4108,
+      2778,
+      6025,
+      5897,
+      16892,
+      9584,
+      10504,
+      12322,
+      12301,
+      10045,
+      13773
+     ],
+     "Net Profit": [
+      1520,
+      2093,
+      2876,
+      2068,
+      4718,
+      4153,
+      16135,
+      12476,
+      7422,
+      8651,
+      8503,
+      9247,
+      10012
+     ],
+     "EPS in Rs": [
+      2.89,
+      2.39,
+      4.34,
+      3.66,
+      7.31,
+      6.31,
+      25.95,
+      19.33,
+      10.43,
+      11.91,
+      11.63,
+      12.02,
+      13.09
+     ]
+    }
+   },
+   "annual": null,
+   "announcements": [
+    {
+     "date": "2026-10-30",
+     "title": "Newspaper Publication - Advertisement published Oct 30, 2026 w.r.t Postal Ballot",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=500d7b1a-2dd6-4bec-b711-ea723571ad36.pdf"
+    },
+    {
+     "date": "2026-10-29",
+     "title": "DoT Karnataka imposed Rs 2.14 lakh penalty on Airtel for alleged subscriber verification norm violations",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af0f8622-1854-4424-96bf-3e22856f1470.pdf"
+    },
+    {
+     "date": "2026-10-28",
+     "title": "Analyst / Investor Meet - Intimation",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfa80ddb-f524-419d-b71e-d3c606e27c93.pdf"
+    },
+    {
+     "date": "2026-10-26",
+     "title": "Board Meeting Intimation: Audited Results (Standalone & Consolidated) for Q2 & Six Months to Sep 30, 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a5ea611-ba91-4312-95aa-59a8cc634910.pdf"
+    },
+    {
+     "date": "2026-10-26",
+     "title": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1d1f1f7-7442-4d44-876e-106b3405dd14.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "Aug 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca87613b-39c3-4571-8ea9-8f77df1b6428.pdf",
+     "ppt": null
+    },
+    {
+     "period": "May 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e76d0ca2-740a-4e0f-986a-2ad0ad39d515.pdf",
+     "ppt": null
+    },
+    {
+     "period": "Feb 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fbe1f35-07ac-4458-9799-d075511bcd53.pdf",
+     "ppt": null
+    },
+    {
+     "period": "Nov 2025",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8f70dc5-c46b-481a-961c-ecbd39a6f45d.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=584560c2-e9d6-4895-b6a9-3ba4beb21dfb.pdf"
+    }
+   ],
+   "annualReports": [],
+   "about": null
+  },
+  "ITC": {
+   "symbol": "ITC",
+   "bse": "500875",
+   "name": "ITC",
+   "sector": "FMCG · Cigarettes, Agri, Paper",
+   "kind": "corporate",
+   "source": {
+    "url": "https://www.screener.in/company/ITC/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 266,
+    "asOfText": "30 Oct - close price",
+    "changePct": 0.23,
+    "kind": "close",
+    "date": "2026-10-30"
+   },
+   "quarters": {
+    "headers": [
+     "Jun 2023",
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026"
+    ],
+    "rows": {
+     "Sales": [
+      17164,
+      17774,
+      17195,
+      17038,
+      17778,
+      19990,
+      18790,
+      18765,
+      21495,
+      19502,
+      20047,
+      17825,
+      19114
+     ],
+     "Expenses": [
+      10494,
+      11320,
+      10985,
+      10736,
+      11233,
+      13438,
+      12428,
+      12246,
+      14678,
+      12807,
+      13165,
+      10900,
+      13934
+     ],
+     "Operating Profit": [
+      6670,
+      6454,
+      6210,
+      6302,
+      6545,
+      6552,
+      6362,
+      6519,
+      6816,
+      6695,
+      6883,
+      6924,
+      5181
+     ],
+     "Other Income": [
+      722,
+      674,
+      820,
+      868,
+      771,
+      690,
+      803,
+      15391,
+      751,
+      739,
+      322,
+      700,
+      1148
+     ],
+     "Interest": [
+      10,
+      10,
+      12,
+      11,
+      10,
+      15,
+      10,
+      11,
+      16,
+      20,
+      19,
+      29,
+      40
+     ],
+     "Depreciation": [
+      442,
+      453,
+      384,
+      385,
+      403,
+      416,
+      416,
+      411,
+      423,
+      435,
+      431,
+      422,
+      428
+     ],
+     "Profit before tax": [
+      6940,
+      6665,
+      6635,
+      6774,
+      6903,
+      6811,
+      6740,
+      21489,
+      7128,
+      6979,
+      6754,
+      7173,
+      5861
+     ],
+     "Net Profit": [
+      5190,
+      4965,
+      5407,
+      5191,
+      5177,
+      5054,
+      5013,
+      19808,
+      5343,
+      5187,
+      5018,
+      5470,
+      4509
+     ],
+     "EPS in Rs": [
+      4.1,
+      3.93,
+      4.28,
+      4.1,
+      4.08,
+      3.99,
+      3.94,
+      15.76,
+      4.19,
+      4.09,
+      3.94,
+      4.3,
+      3.51
+     ]
+    }
+   },
+   "annual": null,
+   "announcements": [
+    {
+     "date": "2026-10-16",
+     "title": "Board Meeting Intimation: Unaudited Standalone and Consolidated Results for Quarter/Six Months Ended 30 Sep 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5bddd8c-e334-4796-abcb-fe6f95a76110.pdf"
+    },
+    {
+     "date": "2026-10-15",
+     "title": "Allotment of ESOP / ESPS",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b57d5926-290d-4936-a8b7-3f7495bc27b0.pdf"
+    },
+    {
+     "date": "2026-10-07",
+     "title": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4A76F0DB_EACC_426D_9D7C_C907E5CE4065_103659.pdf"
+    },
+    {
+     "date": "2026-10-05",
+     "title": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2697d75-c31f-46ca-9ef2-a1f32bd98ab9.pdf"
+    },
+    {
+     "date": "2026-09-28",
+     "title": "Announcement under Regulation 30 (LODR)-Acquisition",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8eac2987-9924-4131-b4da-af66c3b06041.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "Jul 2026",
+     "transcript": null,
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20b685f4-2aec-4887-bb2a-eaf9fd999da2.pdf"
+    },
+    {
+     "period": "May 2026",
+     "transcript": null,
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ed30323-0ded-4685-b1b4-fd441908505c.pdf"
+    }
+   ],
+   "annualReports": [],
+   "about": null
+  },
+  "LT": {
+   "symbol": "LT",
+   "bse": "500510",
+   "name": "Larsen & Toubro",
+   "sector": "Engineering & construction",
+   "kind": "corporate",
+   "source": {
+    "url": "https://www.screener.in/company/LT/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 3872,
+    "asOfText": "30 Oct - close price",
+    "changePct": 0.9,
+    "kind": "close",
+    "date": "2026-10-30"
+   },
+   "quarters": {
+    "headers": [
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026",
+     "Sep 2026"
+    ],
+    "rows": {
+     "Sales": [
+      51024,
+      55128,
+      67079,
+      55120,
+      61555,
+      64668,
+      74392,
+      63679,
+      67984,
+      71450,
+      82762,
+      67942,
+      78750
+     ],
+     "Expenses": [
+      43984,
+      47929,
+      58426,
+      48074,
+      53638,
+      56770,
+      64516,
+      55655,
+      59470,
+      62259,
+      72343,
+      59793,
+      69936
+     ],
+     "Operating Profit": [
+      7040,
+      7199,
+      8653,
+      7046,
+      7917,
+      7898,
+      9876,
+      8024,
+      8513,
+      9190,
+      10419,
+      8149,
+      8814
+     ],
+     "Other Income": [
+      1133,
+      838,
+      1135,
+      921,
+      1101,
+      968,
+      1610,
+      1357,
+      1384,
+      -350,
+      1647,
+      2377,
+      2306
+     ],
+     "Interest": [
+      2272,
+      2344,
+      2345,
+      2292,
+      2439,
+      2486,
+      2419,
+      2488,
+      2470,
+      2399,
+      2488,
+      2571,
+      2442
+     ],
+     "Depreciation": [
+      910,
+      921,
+      1021,
+      998,
+      1024,
+      1047,
+      1052,
+      1033,
+      1092,
+      1072,
+      1168,
+      1032,
+      1037
+     ],
+     "Profit before tax": [
+      4991,
+      4772,
+      6422,
+      4677,
+      5555,
+      5333,
+      8014,
+      5860,
+      6336,
+      5370,
+      8410,
+      6922,
+      7641
+     ],
+     "Net Profit": [
+      3846,
+      3593,
+      5013,
+      3445,
+      4099,
+      3974,
+      6156,
+      4318,
+      4678,
+      3825,
+      6133,
+      4988,
+      5949
+     ],
+     "EPS in Rs": [
+      23.45,
+      21.44,
+      31.98,
+      20.26,
+      24.69,
+      24.43,
+      39.97,
+      26.3,
+      28.54,
+      23.37,
+      38.71,
+      29.97,
+      37.81
+     ]
+    }
+   },
+   "annual": {
+    "headers": [
+     "Mar 2015",
+     "Mar 2016",
+     "Mar 2017",
+     "Mar 2018",
+     "Mar 2019",
+     "Mar 2020",
+     "Mar 2021",
+     "Mar 2022",
+     "Mar 2023",
+     "Mar 2024",
+     "Mar 2025",
+     "Mar 2026",
+     "Sep 2026"
+    ],
+    "pl": {},
+    "bs": {
+     "Equity Capital": [
+      186,
+      186,
+      187,
+      280,
+      281,
+      281,
+      281,
+      281,
+      281,
+      275,
+      275,
+      275,
+      275
+     ],
+     "Reserves": [
+      40723,
+      43994,
+      50030,
+      54623,
+      62094,
+      66442,
+      75588,
+      82127,
+      89045,
+      86084,
+      97381,
+      109015,
+      112754
+     ],
+     "Borrowings": [
+      93630,
+      88135,
+      93954,
+      107524,
+      125555,
+      143174,
+      134629,
+      125508,
+      120650,
+      116322,
+      132409,
+      125497,
+      140300
+     ],
+     "Other Liabilities": [
+      58727,
+      61775,
+      67400,
+      80812,
+      90106,
+      96790,
+      99597,
+      111112,
+      119745,
+      136921,
+      149050,
+      217596,
+      231398
+     ],
+     "Total Liabilities": [
+      193266,
+      194091,
+      211571,
+      243240,
+      278036,
+      306687,
+      310095,
+      319028,
+      329722,
+      339602,
+      379114,
+      452383,
+      484727
+     ],
+     "Fixed Assets": [
+      34738,
+      14176,
+      16677,
+      18580,
+      21194,
+      43653,
+      44319,
+      42945,
+      42641,
+      42964,
+      44055,
+      30867,
+      31984
+     ],
+     "CWIP": [
+      14993,
+      10974,
+      13298,
+      13443,
+      13919,
+      3311,
+      500,
+      1250,
+      3066,
+      3045,
+      2589,
+      3311,
+      3150
+     ],
+     "Investments": [
+      9612,
+      15465,
+      19753,
+      15311,
+      20907,
+      20047,
+      39627,
+      39395,
+      44798,
+      45648,
+      54805,
+      68377,
+      82754
+     ],
+     "Other Assets": [
+      133923,
+      153475,
+      161843,
+      195905,
+      222016,
+      239675,
+      225649,
+      235438,
+      239217,
+      247946,
+      277665,
+      349828,
+      366840
+     ]
+    },
+    "cf": {},
+    "ratios": {}
+   },
+   "announcements": [
+    {
+     "date": "2026-10-28",
+     "title": "Newspaper Publication - Intimation re publication of Financial Results in Newspapers",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=498df898-abfc-4569-b288-56622aa74bef.pdf"
+    },
+    {
+     "date": "2026-10-27",
+     "title": "Analyst/Investor Meet Outcome: Q2/H1 FY27 earnings call audio uploaded on Oct 27, 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e4c11c6-4c96-42c0-ac94-b2cb928c4f4f.pdf"
+    },
+    {
+     "date": "2026-10-27",
+     "title": "Analyst Presentation - Q2/H1 FY27",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c027e30-6b95-4915-9843-bd4e4c437bb1.pdf"
+    },
+    {
+     "date": "2026-10-27",
+     "title": "Outcome Of Board Meeting Of Larsen & Toubro Limited Held On October 27, 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be28659d-c65e-4500-917e-02ef891caee6.pdf"
+    },
+    {
+     "date": "2026-10-27",
+     "title": "Board Meeting Outcome: Q2 FY27 financial results; record order inflows",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0efae36-4554-4d02-8938-9a63b303f9c3.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "Jul 2026",
+     "transcript": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4d1bc4e-1492-4448-b203-5d6041b48a0e.pdf"
+    },
+    {
+     "period": "May 2026",
+     "transcript": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2095c57-89e5-4a19-adb3-0d074ac96126.pdf"
+    },
+    {
+     "period": "Jan 2026",
+     "transcript": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Transcript%20Q3FY26.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d35018aa-6e52-4d2f-a36e-82205456c0de.pdf"
+    },
+    {
+     "period": "Oct 2025",
+     "transcript": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79d47adc-e94d-4ae2-9f11-2053b053b389.pdf"
+    }
+   ],
+   "annualReports": [],
+   "about": null
+  },
+  "SUNPHARMA": {
+   "symbol": "SUNPHARMA",
+   "bse": "524715",
+   "name": "Sun Pharmaceutical",
+   "sector": "Pharmaceuticals",
+   "kind": "corporate",
+   "source": {
+    "url": "https://www.screener.in/company/SUNPHARMA/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 1795,
+    "asOfText": "30 Oct 9:49 a.m.",
+    "changePct": 1.82,
+    "kind": "intraday",
+    "date": "2026-10-30"
+   },
+   "quarters": {
+    "headers": [
+     "Jun 2023",
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026"
+    ],
+    "rows": {
+     "Sales": [
+      11941,
+      12192,
+      12381,
+      11983,
+      12653,
+      13291,
+      13675,
+      12959,
+      13851,
+      14478,
+      15521,
+      14612,
+      15300
+     ],
+     "Expenses": [
+      8609,
+      9013,
+      8904,
+      8948,
+      9045,
+      9352,
+      9666,
+      9243,
+      9550,
+      9951,
+      10572,
+      10658,
+      10882
+     ],
+     "Operating Profit": [
+      3332,
+      3179,
+      3477,
+      3035,
+      3608,
+      3939,
+      4009,
+      3716,
+      4302,
+      4527,
+      4948,
+      3954,
+      4418
+     ],
+     "Other Income": [
+      -118,
+      294,
+      180,
+      504,
+      533,
+      354,
+      149,
+      251,
+      -354,
+      470,
+      89,
+      458,
+      520
+     ],
+     "Interest": [
+      81,
+      49,
+      35,
+      74,
+      62,
+      69,
+      52,
+      49,
+      75,
+      100,
+      78,
+      86,
+      100
+     ],
+     "Depreciation": [
+      651,
+      633,
+      622,
+      650,
+      655,
+      626,
+      631,
+      664,
+      701,
+      730,
+      732,
+      775,
+      739
+     ],
+     "Profit before tax": [
+      2481,
+      2791,
+      3000,
+      2816,
+      3424,
+      3598,
+      3476,
+      3254,
+      3173,
+      4168,
+      4227,
+      3551,
+      4099
+     ],
+     "Net Profit": [
+      2006,
+      2385,
+      2561,
+      2659,
+      2861,
+      3037,
+      2913,
+      2154,
+      2293,
+      3125,
+      3381,
+      2710,
+      2901
+     ],
+     "EPS in Rs": [
+      8.43,
+      9.9,
+      10.52,
+      11.06,
+      11.82,
+      12.67,
+      12.1,
+      8.96,
+      9.5,
+      13,
+      14.04,
+      11.31,
+      12.06
+     ]
+    }
+   },
+   "annual": {
+    "headers": [
+     "Mar 2015",
+     "Mar 2016",
+     "Mar 2017",
+     "Mar 2018",
+     "Mar 2019",
+     "Mar 2020",
+     "Mar 2021",
+     "Mar 2022",
+     "Mar 2023",
+     "Mar 2024",
+     "Mar 2025",
+     "Mar 2026"
+    ],
+    "pl": {},
+    "bs": {
+     "Equity Capital": [
+      207,
+      241,
+      240,
+      240,
+      240,
+      240,
+      240,
+      240,
+      240,
+      240,
+      240,
+      240
+     ],
+     "Reserves": [
+      25431,
+      32742,
+      36400,
+      38074,
+      41169,
+      45025,
+      46223,
+      47771,
+      55755,
+      63427,
+      71978,
+      83330
+     ],
+     "Borrowings": [
+      8996,
+      8497,
+      9832,
+      10385,
+      10514,
+      8315,
+      3869,
+      1290,
+      6886,
+      3274,
+      2362,
+      4627
+     ],
+     "Other Liabilities": [
+      14089,
+      13948,
+      14624,
+      15598,
+      12666,
+      14615,
+      17291,
+      20474,
+      17831,
+      18387,
+      17328,
+      20210
+     ],
+     "Total Liabilities": [
+      48723,
+      55428,
+      61095,
+      64297,
+      64590,
+      68194,
+      67622,
+      69776,
+      80712,
+      85328,
+      91908,
+      108407
+     ],
+     "Fixed Assets": [
+      12682,
+      15872,
+      17675,
+      18853,
+      21837,
+      22847,
+      21553,
+      22665,
+      24065,
+      23248,
+      22586,
+      32822
+     ],
+     "CWIP": [
+      2039,
+      2175,
+      2801,
+      2465,
+      1411,
+      1220,
+      1567,
+      1287,
+      4973,
+      5354,
+      6644,
+      3052
+     ],
+     "Investments": [
+      2716,
+      1830,
+      1192,
+      7143,
+      7903,
+      10143,
+      9612,
+      12849,
+      14824,
+      15026,
+      18354,
+      24723
+     ],
+     "Other Assets": [
+      31286,
+      35550,
+      39427,
+      35837,
+      33439,
+      33984,
+      34890,
+      32975,
+      36849,
+      41700,
+      44324,
+      47811
+     ]
+    },
+    "cf": {},
+    "ratios": {}
+   },
+   "announcements": [
+    {
+     "date": "2026-10-30",
+     "title": "ILUMYA (tildrakizumab-asmm) approved in the U.S. for adults with active Psoriatic Arthritis",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b8f28d0-1101-4b12-82d0-e2ef23c8ef6c.pdf"
+    },
+    {
+     "date": "2026-10-26",
+     "title": "Allotment of ₹7,816 crore Non-Convertible Debentures, maturing 27 October 2031",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f44a1be-85a8-4545-a86e-71a27b7b7f15.pdf"
+    },
+    {
+     "date": "2026-10-23",
+     "title": "Press Release: UNLOXCYT data to be presented at ESMO 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46b44110-a538-4759-8351-04d4731da2ae.pdf"
+    },
+    {
+     "date": "2026-10-20",
+     "title": "Press Release: UNLOXCYT received NCCN Category 2A designation for laCSCC",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a434af1-62a4-4822-a754-fa547098def0.pdf"
+    },
+    {
+     "date": "2026-10-15",
+     "title": "Analyst / Investor Meet - Intimation: Q2 results on 30 October 2026, earnings call at 6:30 pm IST",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fee4866d-b8c6-40e5-b8d5-c93ade038a11.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "Aug 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34be7c92-1d9f-4010-ba30-2344c959bc5e.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6f00b4f-5f46-44d8-a2d2-db50b7cc28ff.pdf"
+    },
+    {
+     "period": "May 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c1789-7308-4864-982a-192b016de087.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fb0611b-17c4-4e4b-8730-63f76028c1a1.pdf"
+    },
+    {
+     "period": "Feb 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1082d0ab-d6fb-40f5-873e-d7301397cd05.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ef19f3e-b9ef-4842-9ad9-d0b0120afe72.pdf"
+    }
+   ],
+   "annualReports": [],
+   "about": null
+  },
+  "TATASTEEL": {
+   "symbol": "TATASTEEL",
+   "bse": "500470",
+   "name": "Tata Steel",
+   "sector": "Metals · Steel",
+   "kind": "corporate",
+   "source": {
+    "url": "https://www.screener.in/company/TATASTEEL/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 168,
+    "asOfText": "30 Oct - close price",
+    "changePct": -1.1,
+    "kind": "close",
+    "date": "2026-10-30"
+   },
+   "quarters": {
+    "headers": [
+     "Jun 2023",
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026"
+    ],
+    "rows": {
+     "Sales": [
+      59490,
+      55682,
+      55312,
+      58687,
+      54771,
+      53905,
+      53648,
+      56218,
+      53178,
+      58689,
+      57002,
+      63270,
+      60794
+     ],
+     "Expenses": [
+      54587,
+      51414,
+      49048,
+      52087,
+      48077,
+      47789,
+      47745,
+      49659,
+      45751,
+      49793,
+      48803,
+      53441,
+      51530
+     ],
+     "Operating Profit": [
+      4903,
+      4268,
+      6264,
+      6601,
+      6694,
+      6116,
+      5903,
+      6559,
+      7428,
+      8897,
+      8200,
+      9829,
+      9264
+     ],
+     "Other Income": [
+      1190,
+      -6568,
+      -33,
+      -382,
+      -6,
+      617,
+      142,
+      149,
+      236,
+      -6,
+      465,
+      42,
+      -17
+     ],
+     "Interest": [
+      1825,
+      1959,
+      1881,
+      1842,
+      1777,
+      1971,
+      1804,
+      1789,
+      1852,
+      1775,
+      1747,
+      1792,
+      1771
+     ],
+     "Depreciation": [
+      2412,
+      2480,
+      2422,
+      2568,
+      2535,
+      2597,
+      2569,
+      2720,
+      2744,
+      2893,
+      3049,
+      3268,
+      3640
+     ],
+     "Profit before tax": [
+      1855,
+      -6739,
+      1928,
+      1809,
+      2377,
+      2164,
+      1672,
+      2200,
+      3067,
+      4222,
+      3869,
+      4810,
+      3838
+     ],
+     "Net Profit": [
+      525,
+      -6511,
+      522,
+      555,
+      919,
+      759,
+      295,
+      1201,
+      2007,
+      3183,
+      2730,
+      2965,
+      2385
+     ],
+     "EPS in Rs": [
+      0.52,
+      -5.07,
+      0.42,
+      0.49,
+      0.77,
+      0.67,
+      0.26,
+      1.04,
+      1.66,
+      2.48,
+      2.15,
+      2.34,
+      1.86
+     ]
+    }
+   },
+   "annual": null,
+   "announcements": [
+    {
+     "date": "2026-10-30",
+     "title": "Analyst / Investor Meet Intimation - 2QFY27 earnings discussion on November 7, 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd1ecd31-1e5f-494a-9ea9-20dffa50f6d4.pdf"
+    },
+    {
+     "date": "2026-10-24",
+     "title": "Board meeting postponed to November 7, 2026 for Q2 and half-year results approval",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f226c38-fc19-45fa-8f39-6598689caa04.pdf"
+    },
+    {
+     "date": "2026-10-16",
+     "title": "Board Meeting Intimation for Q2 and half-year ended September 30, 2026 results",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00371f43-ea25-429c-8b37-35b174e7d4d8.pdf"
+    },
+    {
+     "date": "2026-10-15",
+     "title": "Certified copy of NCLT Mumbai order sanctioning Rujuvalika Investments amalgamation into Tata Steel",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed58c27c-5a50-4923-b54c-652a6e715f3c.pdf"
+    },
+    {
+     "date": "2026-10-15",
+     "title": "Scheme of Arrangement: NCLT approval of Rujuvalika Investments amalgamation",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c83c3dd-87e9-48c8-97fe-e7ad20f62800.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "May 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d6e2d40-e300-4aae-94bc-b1dc1136656c.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33960741-5849-4d90-951d-5733a2d40f46.pdf"
+    },
+    {
+     "period": "Feb 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e178a2e-ea18-4b55-8e55-56e03dc5bea5.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4390fd0f-eb71-4d34-81f0-615195bb519b.pdf"
+    },
+    {
+     "period": "Nov 2025",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=816939c9-f6c8-404b-afce-29aee1c980ed.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85350610-bed3-4627-a46d-9471960f8c7d.pdf"
+    }
+   ],
+   "annualReports": [],
+   "about": null
+  },
+  "ETERNAL": {
+   "symbol": "ETERNAL",
+   "bse": "543320",
+   "name": "Eternal (Zomato, Blinkit)",
+   "sector": "Internet · Food delivery & quick commerce",
+   "kind": "corporate",
+   "source": {
+    "url": "https://www.screener.in/company/ETERNAL/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 345,
+    "asOfText": "30 Oct 1:11 p.m.",
+    "changePct": 2.25,
+    "kind": "intraday",
+    "date": "2026-10-30"
+   },
+   "quarters": {
+    "headers": [
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026",
+     "Sep 2026"
+    ],
+    "rows": {
+     "Sales": [
+      2848,
+      3288,
+      3562,
+      4206,
+      4799,
+      5405,
+      5833,
+      7167,
+      13590,
+      16315,
+      17292,
+      20211,
+      24138
+     ],
+     "Expenses": [
+      2895,
+      3237,
+      3476,
+      4029,
+      4573,
+      5243,
+      5761,
+      7052,
+      13351,
+      15947,
+      16806,
+      19617,
+      23386
+     ],
+     "Operating Profit": [
+      -47,
+      51,
+      86,
+      177,
+      226,
+      162,
+      72,
+      115,
+      239,
+      368,
+      486,
+      594,
+      752
+     ],
+     "Other Income": [
+      212,
+      219,
+      235,
+      236,
+      221,
+      252,
+      368,
+      354,
+      352,
+      348,
+      342,
+      375,
+      351
+     ],
+     "Interest": [
+      16,
+      18,
+      20,
+      25,
+      30,
+      43,
+      56,
+      67,
+      86,
+      107,
+      132,
+      151,
+      155
+     ],
+     "Depreciation": [
+      128,
+      128,
+      140,
+      149,
+      180,
+      247,
+      287,
+      314,
+      376,
+      439,
+      468,
+      546,
+      625
+     ],
+     "Profit before tax": [
+      21,
+      124,
+      161,
+      239,
+      237,
+      124,
+      97,
+      88,
+      129,
+      170,
+      228,
+      272,
+      323
+     ],
+     "Net Profit": [
+      36,
+      138,
+      175,
+      253,
+      176,
+      59,
+      39,
+      25,
+      65,
+      102,
+      174,
+      92,
+      125
+     ],
+     "EPS in Rs": [
+      0.04,
+      0.16,
+      0.2,
+      0.29,
+      0.2,
+      0.06,
+      0.04,
+      0.03,
+      0.07,
+      0.11,
+      0.18,
+      0.1,
+      0.13
+     ]
+    }
+   },
+   "annual": null,
+   "announcements": [
+    {
+     "date": "2026-10-27",
+     "title": "Earnings Call Transcript: transcript of October 21, 2026 earnings call filed",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf"
+    },
+    {
+     "date": "2026-10-21",
+     "title": "Monitoring Agency Report: no QIP proceeds deviation for quarter ended Sep 30, 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c09b689-969e-4ab5-88db-ab3fa4ea814a.pdf"
+    },
+    {
+     "date": "2026-10-21",
+     "title": "Restructuring: board approved Q2 results, internal restructuring, Adonmo-Mygate share swap",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0daf632-ab45-41ef-bbc5-bfc655056cbb.pdf"
+    },
+    {
+     "date": "2026-10-21",
+     "title": "Results For The Quarter And Half Year Ended September 30, 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e5ee67c-fdd2-46d5-9390-e8e4a018c5b2.pdf"
+    },
+    {
+     "date": "2026-10-21",
+     "title": "Shareholders Letter: Q2FY27 results",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbfbd146-6a68-43d6-9cbc-dfb7d0f50fd0.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "Oct 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f36e3b-87e9-426e-be3e-515dca4525d2.pdf",
+     "ppt": "https://b.zmtcdn.com/investor-relations/Eternal_Limited_Shareholders_Letter_Q2FY27_Results.pdf"
+    },
+    {
+     "period": "Jul 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa4f0f7-06e4-4066-9d68-3da95dfe02d9.pdf",
+     "ppt": "https://b.zmtcdn.com/investor-relations/Eternal_Limited_Shareholders_Letter_Q1FY27_Results.pdf"
+    },
+    {
+     "period": "May 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af607c-5f1b-4d5d-8425-4929efa6aad1.pdf",
+     "ppt": "https://b.zmtcdn.com/investor-relations/Eternal_Shareholders_Letter_Q4FY26_Results.pdf"
+    },
+    {
+     "period": "Jan 2026",
+     "transcript": "https://b.zmtcdn.com/investor-relations/Q3FY26-earnings-call-transcript.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf94ed1c-0352-41a3-a9af-ae5c9d568ff6.pdf"
+    }
+   ],
+   "annualReports": [],
+   "about": null
+  },
+  "BEL": {
+   "symbol": "BEL",
+   "bse": "500049",
+   "name": "Bharat Electronics",
+   "sector": "Defence electronics (PSU)",
+   "kind": "corporate",
+   "source": {
+    "url": "https://www.screener.in/company/BEL/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 369,
+    "asOfText": "30 Oct 2:13 p.m.",
+    "changePct": -0.85,
+    "kind": "intraday",
+    "date": "2026-10-30"
+   },
+   "quarters": {
+    "headers": [
+     "Jun 2023",
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026"
+    ],
+    "rows": {
+     "Sales": [
+      3533,
+      4009,
+      4162,
+      8564,
+      4244,
+      4605,
+      5771,
+      9150,
+      4440,
+      5792,
+      7154,
+      10224,
+      5547
+     ],
+     "Expenses": [
+      2860,
+      2995,
+      3090,
+      6277,
+      3295,
+      3205,
+      4101,
+      6334,
+      3201,
+      4090,
+      5027,
+      7243,
+      4159
+     ],
+     "Operating Profit": [
+      673,
+      1014,
+      1072,
+      2287,
+      948,
+      1400,
+      1669,
+      2816,
+      1238,
+      1702,
+      2127,
+      2982,
+      1388
+     ],
+     "Other Income": [
+      140,
+      137,
+      167,
+      225,
+      204,
+      158,
+      186,
+      195,
+      163,
+      154,
+      139,
+      110,
+      170
+     ],
+     "Interest": [
+      1,
+      2,
+      1,
+      4,
+      1,
+      1,
+      1,
+      6,
+      1,
+      2,
+      2,
+      2,
+      1
+     ],
+     "Depreciation": [
+      109,
+      108,
+      107,
+      119,
+      108,
+      111,
+      111,
+      138,
+      121,
+      126,
+      135,
+      173,
+      161
+     ],
+     "Profit before tax": [
+      703,
+      1041,
+      1132,
+      2390,
+      1043,
+      1445,
+      1744,
+      2867,
+      1279,
+      1728,
+      2128,
+      2917,
+      1396
+     ],
+     "Net Profit": [
+      539,
+      790,
+      860,
+      1797,
+      791,
+      1093,
+      1312,
+      2127,
+      969,
+      1287,
+      1580,
+      2226,
+      1055
+     ],
+     "EPS in Rs": [
+      0.74,
+      1.08,
+      1.18,
+      2.46,
+      1.08,
+      1.49,
+      1.79,
+      2.91,
+      1.33,
+      1.76,
+      2.16,
+      3.04,
+      1.44
+     ]
+    }
+   },
+   "annual": null,
+   "announcements": [
+    {
+     "date": "2026-10-27",
+     "title": "Analyst/Investor Meet intimation: Q2FY27 results conference call on 3 November 2026 at 4:00 p.m.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81894933-f0ff-4ac3-a959-261e0965efc6.pdf"
+    },
+    {
+     "date": "2026-10-21",
+     "title": "Press Release: BEL received additional orders worth Rs. 1,011 crore since 13 October 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5db84884-2669-426c-96f6-8cbde4b81fcf.pdf"
+    },
+    {
+     "date": "2026-10-16",
+     "title": "Board meeting on 30 October 2026 to approve Q2 FY2026-27 standalone and consolidated results",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46bca816-9653-49cc-a630-9935b43e34b9.pdf"
+    },
+    {
+     "date": "2026-10-13",
+     "title": "Award of Order: BEL secured additional orders worth Rs.533 crore since 17 September 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee72e92f-ef75-4d5b-999c-34da0fd708b2.pdf"
+    },
+    {
+     "date": "2026-10-12",
+     "title": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a49893f-b6d5-4003-a862-f30b1b47e558.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "Jul 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2a747a3-664c-4c5d-9373-fcddc0d2a3ae.pdf",
+     "ppt": null
+    },
+    {
+     "period": "May 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f32d2ed7-e599-42b4-ab37-d8e5e79ae0ca.pdf",
+     "ppt": null
+    },
+    {
+     "period": "Jan 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb8b13a8-bf5d-410c-ac76-7a0f41a3cbdc.pdf",
+     "ppt": null
+    },
+    {
+     "period": "Nov 2025",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9086c7ac-ab01-42ac-887f-3d0e37ac0833.pdf",
+     "ppt": null
+    }
+   ],
+   "annualReports": [],
+   "about": null
+  },
+  "NTPC": {
+   "symbol": "NTPC",
+   "bse": "532555",
+   "name": "NTPC",
+   "sector": "Power generation (PSU)",
+   "kind": "corporate",
+   "source": {
+    "url": "https://www.screener.in/company/NTPC/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 316,
+    "asOfText": "30 Oct - close price",
+    "changePct": 1.85,
+    "kind": "close",
+    "date": "2026-10-30"
+   },
+   "quarters": {
+    "headers": [
+     "Jun 2023",
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026"
+    ],
+    "rows": {
+     "Sales": [
+      43075,
+      44983,
+      42820,
+      47628,
+      48529,
+      44706,
+      45069,
+      49834,
+      47064,
+      44786,
+      45846,
+      49686,
+      50741
+     ],
+     "Expenses": [
+      30664,
+      32303,
+      31458,
+      33638,
+      35091,
+      33041,
+      31729,
+      35080,
+      34485,
+      31970,
+      31276,
+      41181,
+      34510
+     ],
+     "Operating Profit": [
+      12411,
+      12680,
+      11362,
+      13990,
+      13438,
+      11665,
+      13341,
+      14754,
+      12579,
+      12816,
+      14570,
+      8505,
+      16231
+     ],
+     "Other Income": [
+      994,
+      1024,
+      2532,
+      1400,
+      1187,
+      3218,
+      986,
+      4180,
+      3241,
+      2734,
+      1738,
+      1918,
+      1549
+     ],
+     "Interest": [
+      2922,
+      2921,
+      3250,
+      2955,
+      3136,
+      3621,
+      2764,
+      3648,
+      3468,
+      3432,
+      3164,
+      3737,
+      3386
+     ],
+     "Depreciation": [
+      3821,
+      4038,
+      4074,
+      4271,
+      4204,
+      4216,
+      4318,
+      4663,
+      4587,
+      4816,
+      5093,
+      5134,
+      5234
+     ],
+     "Profit before tax": [
+      6661,
+      6746,
+      6571,
+      8164,
+      7284,
+      7046,
+      7245,
+      10623,
+      7765,
+      7301,
+      8050,
+      1553,
+      9160
+     ],
+     "Net Profit": [
+      4907,
+      4726,
+      5209,
+      6490,
+      5506,
+      5380,
+      5170,
+      7897,
+      6108,
+      5225,
+      5597,
+      10615,
+      6896
+     ],
+     "EPS in Rs": [
+      5.03,
+      4.76,
+      5.32,
+      6.36,
+      5.65,
+      5.44,
+      5.22,
+      7.85,
+      6.2,
+      5.23,
+      5.66,
+      10.81,
+      6.93
+     ]
+    }
+   },
+   "annual": null,
+   "announcements": [
+    {
+     "date": "2026-10-30",
+     "title": "Declaration of COD of 95.6 MW Kalasar Solar Energy Project, Bikaner, Rajasthan (fifth part capacity)",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b66f898a-79aa-4f38-9618-ca5fd5cf46eb.pdf"
+    },
+    {
+     "date": "2026-10-29",
+     "title": "NVVN's First BESS Project (250 MW / 500 MWh) Declared Commercial",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d616360-a895-46fc-a18a-d71a81ab0ddd.pdf"
+    },
+    {
+     "date": "2026-10-28",
+     "title": "Analyst / Investor Meet - Intimation",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4dd8a57a-66b3-4e17-8dc4-b62e07b07b76.pdf"
+    },
+    {
+     "date": "2026-10-23",
+     "title": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10820e85-f9c1-4c9c-ac54-b719df51a6f2.pdf"
+    },
+    {
+     "date": "2026-10-23",
+     "title": "Board Meeting Intimation: Q2/H1 Results (Unaudited) and 1st Interim Dividend Consideration",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=173e9efc-9628-4198-9618-82c54387c057.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "Aug 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e33897c7-dc88-4321-8509-24d5a43a21d1.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=16d1bb8f-e344-4bc6-93b4-5380812bbcdc.pdf"
+    },
+    {
+     "period": "May 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2a690dd-c88b-4131-ae93-58eace85d36c.pdf",
+     "ppt": "https://ntpc.co.in/sites/default/files/conference_call/2026/NTPC_OFS_31032026.pdf"
+    },
+    {
+     "period": "Feb 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a34b65bf-06e8-4d67-b630-5dd881ccf2a0.pdf",
+     "ppt": "https://www.ntpc.co.in/sites/default/files/inline-files/OFS%20Q3FY26%20for%20upload_0.pdf"
+    }
+   ],
+   "annualReports": [],
+   "about": null
+  },
+  "TITAN": {
+   "symbol": "TITAN",
+   "bse": "500114",
+   "name": "Titan Company",
+   "sector": "Consumer · Jewellery & watches",
+   "kind": "corporate",
+   "source": {
+    "url": "https://www.screener.in/company/TITAN/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 4434,
+    "asOfText": "29 Oct - close price",
+    "changePct": 2.22,
+    "kind": "close",
+    "date": "2026-10-29"
+   },
+   "quarters": {
+    "headers": [
+     "Jun 2023",
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026"
+    ],
+    "rows": {
+     "Sales": [
+      11897,
+      12529,
+      14164,
+      12494,
+      13266,
+      14534,
+      17740,
+      14916,
+      16523,
+      18725,
+      25416,
+      26920,
+      21356
+     ],
+     "Expenses": [
+      10772,
+      11118,
+      12599,
+      11303,
+      12019,
+      13298,
+      16066,
+      13379,
+      14693,
+      16850,
+      22703,
+      24982,
+      18466
+     ],
+     "Operating Profit": [
+      1125,
+      1411,
+      1565,
+      1191,
+      1247,
+      1236,
+      1674,
+      1537,
+      1830,
+      1875,
+      2713,
+      1938,
+      2890
+     ],
+     "Other Income": [
+      114,
+      125,
+      136,
+      159,
+      120,
+      123,
+      128,
+      116,
+      105,
+      113,
+      -1,
+      235,
+      148
+     ],
+     "Interest": [
+      109,
+      140,
+      169,
+      201,
+      230,
+      240,
+      231,
+      252,
+      271,
+      277,
+      282,
+      350,
+      353
+     ],
+     "Depreciation": [
+      128,
+      144,
+      154,
+      158,
+      164,
+      171,
+      175,
+      183,
+      184,
+      189,
+      207,
+      246,
+      256
+     ],
+     "Profit before tax": [
+      1002,
+      1252,
+      1378,
+      991,
+      973,
+      948,
+      1396,
+      1218,
+      1480,
+      1522,
+      2223,
+      1577,
+      2429
+     ],
+     "Net Profit": [
+      756,
+      916,
+      1053,
+      771,
+      715,
+      704,
+      1047,
+      871,
+      1091,
+      1120,
+      1684,
+      1179,
+      1777
+     ],
+     "EPS in Rs": [
+      8.48,
+      10.31,
+      11.86,
+      8.68,
+      8.05,
+      7.93,
+      11.79,
+      9.81,
+      12.29,
+      12.62,
+      18.97,
+      13.28,
+      20.02
+     ]
+    }
+   },
+   "annual": null,
+   "announcements": [
+    {
+     "date": "2026-10-28",
+     "title": "Newspaper Publication: advertisement regarding loss of share certificate",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f3b9502-95ac-4d8f-832e-175c7ca000df.pdf"
+    },
+    {
+     "date": "2026-10-28",
+     "title": "Acquisition: Titan Company Canada Inc. wholly owned subsidiary incorporated 27 Oct 2026 with CAD 5,000",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a9b9bf7-babc-49c6-86d2-db3cf586ba5c.pdf"
+    },
+    {
+     "date": "2026-10-23",
+     "title": "Analyst / Investor Meet - Intimation: Earnings call for Q2 and half year FY 2026-27",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f317d625-e7e4-4155-bf66-a43c7def32b6.pdf"
+    },
+    {
+     "date": "2026-10-20",
+     "title": "Board meeting on 5 Nov 2026 to approve Q2 and half-year FY27 unaudited results",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9e04a61-ebc4-47ec-868d-20d8a3c5d631.pdf"
+    },
+    {
+     "date": "2026-10-19",
+     "title": "Intimation of Repayment of Commercial Paper: ₹1,000 crore CP issued 21 July 2026 fully redeemed",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=631d73dc-7695-4952-8082-d9d34d4e0827.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "Aug 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f70a0a33-43cf-40b6-a753-67b06123e8de.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b02a958-6fd3-4a5c-86f9-b741a1e20ddd.pdf"
+    },
+    {
+     "period": "Feb 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ee5b68b-8f66-4705-9a84-9debaa9aae1d.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c59f4f91-69ed-4be2-9374-d369ac3ba0f4.pdf"
+    },
+    {
+     "period": "Nov 2025",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3a5d70a-78ac-4407-aed7-e06b93e17a8f.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f5f3ace-fe6b-4549-952e-8f8c2a9dbe23.pdf"
+    }
+   ],
+   "annualReports": [],
+   "about": null
+  },
+  "ASIANPAINT": {
+   "symbol": "ASIANPAINT",
+   "bse": "500820",
+   "name": "Asian Paints",
+   "sector": "Consumer · Paints & coatings",
+   "kind": "corporate",
+   "source": {
+    "url": "https://www.screener.in/company/ASIANPAINT/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 2302,
+    "asOfText": "29 Oct - close price",
+    "changePct": 0.76,
+    "kind": "close",
+    "date": "2026-10-29"
+   },
+   "quarters": {
+    "headers": [
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026",
+     "Sep 2026"
+    ],
+    "rows": {
+     "Sales": [
+      8479,
+      9103,
+      8731,
+      8970,
+      8028,
+      8549,
+      8359,
+      8939,
+      8531,
+      8867,
+      9247,
+      10542,
+      9977
+     ],
+     "Expenses": [
+      6762,
+      7047,
+      7039,
+      7276,
+      6788,
+      6913,
+      6923,
+      7314,
+      7028,
+      7086,
+      7460,
+      8373,
+      8419
+     ],
+     "Operating Profit": [
+      1716,
+      2056,
+      1691,
+      1694,
+      1240,
+      1637,
+      1436,
+      1625,
+      1503,
+      1781,
+      1787,
+      2169,
+      1557
+     ],
+     "Other Income": [
+      194,
+      186,
+      212,
+      193,
+      25,
+      193,
+      -60,
+      229,
+      237,
+      69,
+      197,
+      279,
+      290
+     ],
+     "Interest": [
+      51,
+      54,
+      54,
+      55,
+      63,
+      56,
+      53,
+      44,
+      44,
+      48,
+      59,
+      48,
+      55
+     ],
+     "Depreciation": [
+      209,
+      220,
+      226,
+      228,
+      242,
+      256,
+      301,
+      301,
+      305,
+      313,
+      310,
+      304,
+      314
+     ],
+     "Profit before tax": [
+      1651,
+      1968,
+      1624,
+      1604,
+      959,
+      1518,
+      1022,
+      1509,
+      1392,
+      1489,
+      1614,
+      2096,
+      1478
+     ],
+     "Net Profit": [
+      1232,
+      1475,
+      1275,
+      1187,
+      694,
+      1128,
+      701,
+      1117,
+      1018,
+      1074,
+      1185,
+      1559,
+      1085
+     ],
+     "EPS in Rs": [
+      12.57,
+      15.09,
+      13.1,
+      12.2,
+      7.24,
+      11.58,
+      7.22,
+      11.47,
+      10.36,
+      11.05,
+      12.22,
+      16.05,
+      11.13
+     ]
+    }
+   },
+   "annual": null,
+   "announcements": [
+    {
+     "date": "2026-10-29",
+     "title": "Audio Recording Of The Investor Conference Call - Q2 and H1 ended 30 Sep 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4463a62c-65c7-4641-8d1f-e6b9325f005b.pdf"
+    },
+    {
+     "date": "2026-10-29",
+     "title": "Investor Presentation - Q2 and half year ended 30 Sep 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83b2bead-08c8-4789-a658-7985de0c772f.pdf"
+    },
+    {
+     "date": "2026-10-29",
+     "title": "Dividend Updates - Q2 FY27 results, Rs 5.75 interim dividend",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc0c50f8-1d2d-4bbd-95bc-806513fe6062.pdf"
+    },
+    {
+     "date": "2026-10-29",
+     "title": "Date of payment of Dividend - Rs 5.75 interim dividend",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a27ed780-8c39-4533-a783-817445f5f11d.pdf"
+    },
+    {
+     "date": "2026-10-29",
+     "title": "Press Release - Q2 FY27 results; VAE production started 17 Sept 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a933af17-dee7-4d6f-a87c-48a70b3a532f.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "Aug 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5c9244a-c461-49ea-abdf-6645780a8715.pdf"
+    },
+    {
+     "period": "Jun 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a71cf39-800d-4765-8131-5d78e54925ce.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e93acbe-5230-4e7c-bd2d-209d067dc21c.pdf"
+    },
+    {
+     "period": "Feb 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df929076-f7e7-41d5-994c-5467c2412117.pdf"
+    }
+   ],
+   "annualReports": [],
+   "about": null
+  },
+  "DIXON": {
+   "symbol": "DIXON",
+   "bse": "540699",
+   "name": "Dixon Technologies",
+   "sector": "Electronics manufacturing services (mid-cap)",
+   "kind": "corporate",
+   "source": {
+    "url": "https://www.screener.in/company/DIXON/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 11000,
+    "asOfText": "30 Oct 3:54 p.m.",
+    "changePct": -4.3,
+    "kind": "intraday",
+    "date": "2026-10-30"
+   },
+   "quarters": {
+    "headers": [
+     "Jun 2023",
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026"
+    ],
+    "rows": {
+     "Sales": [
+      3272,
+      4943,
+      4818,
+      4658,
+      6580,
+      11534,
+      10454,
+      10293,
+      12836,
+      14855,
+      10672,
+      10511,
+      15548
+     ],
+     "Expenses": [
+      3140,
+      4744,
+      4634,
+      4476,
+      6332,
+      11108,
+      10063,
+      9850,
+      12353,
+      14294,
+      10257,
+      10102,
+      15085
+     ],
+     "Operating Profit": [
+      132,
+      199,
+      184,
+      182,
+      248,
+      426,
+      391,
+      443,
+      482,
+      561,
+      414,
+      408,
+      463
+     ],
+     "Other Income": [
+      6,
+      3,
+      4,
+      19,
+      16,
+      206,
+      10,
+      265,
+      8,
+      497,
+      139,
+      90,
+      537
+     ],
+     "Interest": [
+      14,
+      17,
+      22,
+      21,
+      29,
+      38,
+      41,
+      46,
+      33,
+      38,
+      43,
+      24,
+      24
+     ],
+     "Depreciation": [
+      34,
+      36,
+      41,
+      51,
+      55,
+      66,
+      75,
+      86,
+      93,
+      96,
+      99,
+      105,
+      107
+     ],
+     "Profit before tax": [
+      90,
+      149,
+      126,
+      130,
+      180,
+      529,
+      285,
+      576,
+      366,
+      924,
+      412,
+      370,
+      869
+     ],
+     "Net Profit": [
+      67,
+      113,
+      97,
+      97,
+      140,
+      412,
+      216,
+      465,
+      280,
+      746,
+      321,
+      298,
+      718
+     ],
+     "EPS in Rs": [
+      11.55,
+      18.02,
+      16.12,
+      15.91,
+      22.34,
+      65.15,
+      28.5,
+      66.54,
+      37.2,
+      110.72,
+      47.34,
+      42.17,
+      108.6
+     ]
+    }
+   },
+   "annual": null,
+   "announcements": [
+    {
+     "date": "2026-10-23",
+     "title": "Analyst / Investor Meet - Intimation: conference call on unaudited Q2 results",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4260af0d-9e97-44f0-a19a-04b0b0ddb4e5.pdf"
+    },
+    {
+     "date": "2026-10-23",
+     "title": "Board Meeting Intimation: Un-Audited Financial Results for Quarter and Half Year Ended 30 Sep 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ac4537e-4a64-4682-a4c5-5255ba8895cf.pdf"
+    },
+    {
+     "date": "2026-10-21",
+     "title": "Announcement Under Regulation 30 - Giving Of Guarantees Or Indemnity Or Surety For Any Third Party",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=243de729-cff5-4203-a58d-cb59adb578b5.pdf"
+    },
+    {
+     "date": "2026-10-14",
+     "title": "ESG Rating By Crisil ESG Ratings & Analytics Ltd",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f64aac8-d0af-437a-ad7d-bfda96989bc9.pdf"
+    },
+    {
+     "date": "2026-10-10",
+     "title": "Analyst / Investor Meet - Outcome",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec84453f-825b-440c-8a80-cd201962e97c.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "Aug 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf",
+     "ppt": "https://dixon-website.s3.ap-south-1.amazonaws.com/uploads/07150914-1f3b-43ce-82f2-f8543b60027d-EarningPresentation-Q1FY26-27.pdf"
+    },
+    {
+     "period": "May 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf",
+     "ppt": "https://dixon-website.s3.ap-south-1.amazonaws.com/uploads/355b2e69-f5a3-4a7f-bd0c-21482263cd92-EarningPresentation-Q4FY25-26.pdf"
+    },
+    {
+     "period": "Feb 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06b7006d-5602-41a1-b6d2-850217f7af9e.pdf"
+    },
+    {
+     "period": "Oct 2025",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e6d18a8-52fe-461b-b882-baaf90d4f787.pdf"
+    }
+   ],
+   "annualReports": [],
+   "about": null
+  },
+  "POLYCAB": {
+   "symbol": "POLYCAB",
+   "bse": "542652",
+   "name": "Polycab India",
+   "sector": "Wires & cables (mid-cap)",
+   "kind": "corporate",
+   "source": {
+    "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 7787,
+    "asOfText": "30 Oct - close price",
+    "changePct": 0.54,
+    "kind": "close",
+    "date": "2026-10-30"
+   },
+   "quarters": {
+    "headers": [
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026",
+     "Sep 2026"
+    ],
+    "rows": {
+     "Sales": [
+      4218,
+      4340,
+      5592,
+      4698,
+      5498,
+      5226,
+      6986,
+      5906,
+      6477,
+      7636,
+      8864,
+      8210,
+      9899
+     ],
+     "Expenses": [
+      3609,
+      3771,
+      4830,
+      4115,
+      4867,
+      4506,
+      5960,
+      5048,
+      5456,
+      6670,
+      7703,
+      7074,
+      8476
+     ],
+     "Operating Profit": [
+      609,
+      570,
+      762,
+      583,
+      632,
+      720,
+      1025,
+      858,
+      1021,
+      966,
+      1161,
+      1136,
+      1422
+     ],
+     "Other Income": [
+      35,
+      71,
+      54,
+      58,
+      76,
+      25,
+      48,
+      80,
+      45,
+      50,
+      60,
+      105,
+      88
+     ],
+     "Interest": [
+      27,
+      32,
+      24,
+      41,
+      45,
+      50,
+      33,
+      51,
+      48,
+      69,
+      75,
+      80,
+      94
+     ],
+     "Depreciation": [
+      60,
+      62,
+      66,
+      67,
+      72,
+      79,
+      80,
+      86,
+      97,
+      106,
+      98,
+      103,
+      111
+     ],
+     "Profit before tax": [
+      557,
+      546,
+      725,
+      533,
+      590,
+      617,
+      961,
+      801,
+      921,
+      842,
+      1049,
+      1058,
+      1306
+     ],
+     "Net Profit": [
+      430,
+      417,
+      553,
+      402,
+      445,
+      464,
+      734,
+      600,
+      693,
+      630,
+      786,
+      797,
+      990
+     ],
+     "EPS in Rs": [
+      28.37,
+      27.49,
+      36.34,
+      26.34,
+      29.24,
+      30.42,
+      48.31,
+      39.34,
+      45.54,
+      41.3,
+      51.33,
+      52.07,
+      64.86
+     ]
+    }
+   },
+   "annual": null,
+   "announcements": [
+    {
+     "date": "2026-10-30",
+     "title": "CIRP Updates: NCLAT allowed Polycab's appeal and set aside NCLT Ahmedabad order (Oct 30, 2026)",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3d1ba29-6132-47b7-9f3b-79a294e53189.pdf"
+    },
+    {
+     "date": "2026-10-28",
+     "title": "Analyst/Investor Meet Intimation: meeting with William Blair & Company on November 3, 2026, virtually",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26cdd582-7e95-4019-88b5-fdff3d5e60e1.pdf"
+    },
+    {
+     "date": "2026-10-28",
+     "title": "CIRP Updates: NCLAT ordered MSCI not to delist Polycab until order pronouncement, dated October 27, 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ead5c0dc-e464-4e53-8006-b861205174a9.pdf"
+    },
+    {
+     "date": "2026-10-27",
+     "title": "Analyst(S) / Investor(S) Meet - Intimation",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cafe2036-e51b-413a-80cd-65e331d170be.pdf"
+    },
+    {
+     "date": "2026-10-23",
+     "title": "Investor/analyst meetings scheduled from October 28 to December 1, 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9743040-8809-46d3-85ca-c6ca01bc322a.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "Oct 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a940f987-41db-4848-8f35-4b6c8a8f5b47.pdf"
+    },
+    {
+     "period": "Jul 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52abf6f5-8a9d-4914-8ed1-725361e6832b.pdf"
+    },
+    {
+     "period": "May 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f586954-cf4c-4a5c-b179-8fb4a3cf55a9.pdf"
+    },
+    {
+     "period": "Jan 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b665a82-e6f7-42aa-8d23-b4cc3572bac1.pdf"
+    }
+   ],
+   "annualReports": [],
+   "about": null
+  },
+  "BAJFINANCE": {
+   "symbol": "BAJFINANCE",
+   "bse": "500034",
+   "name": "Bajaj Finance",
+   "sector": "NBFC · Consumer & SME lending",
+   "kind": "nbfc",
+   "source": {
+    "url": "https://www.screener.in/company/BAJFINANCE/consolidated/",
+    "capturedAt": "2026-10-30T23:30:00+05:30",
+    "via": "screener.in company page"
+   },
+   "price": {
+    "value": 939,
+    "asOfText": "29 Oct - close price",
+    "changePct": 2.36,
+    "kind": "close",
+    "date": "2026-10-29"
+   },
+   "quarters": {
+    "headers": [
+     "Sep 2023",
+     "Dec 2023",
+     "Mar 2024",
+     "Jun 2024",
+     "Sep 2024",
+     "Dec 2024",
+     "Mar 2025",
+     "Jun 2025",
+     "Sep 2025",
+     "Dec 2025",
+     "Mar 2026",
+     "Jun 2026",
+     "Sep 2026"
+    ],
+    "rows": {
+     "Revenue": [
+      13382,
+      14164,
+      14926,
+      16100,
+      17091,
+      18035,
+      18294,
+      19524,
+      19990,
+      21013,
+      21606,
+      23165,
+      24546
+     ],
+     "Interest": [
+      4537,
+      4868,
+      5217,
+      5684,
+      6149,
+      6386,
+      6551,
+      6918,
+      7011,
+      7339,
+      7398,
+      7942,
+      8602
+     ],
+     "Expenses": [
+      3931,
+      4229,
+      4420,
+      4956,
+      5338,
+      5691,
+      5865,
+      5992,
+      6119,
+      7737,
+      6553,
+      6793,
+      7120
+     ],
+     "Financing Profit": [
+      4914,
+      5066,
+      5289,
+      5460,
+      5604,
+      5958,
+      5879,
+      6614,
+      6861,
+      5937,
+      7654,
+      8430,
+      8825
+     ],
+     "Other Income": [
+      2,
+      5,
+      9,
+      5,
+      7,
+      26,
+      21,
+      5,
+      5,
+      -262,
+      11,
+      6,
+      33
+     ],
+     "Depreciation": [
+      159,
+      176,
+      193,
+      200,
+      210,
+      219,
+      252,
+      251,
+      258,
+      244,
+      256,
+      288,
+      321
+     ],
+     "Profit before tax": [
+      4758,
+      4896,
+      5105,
+      5265,
+      5401,
+      5765,
+      5647,
+      6368,
+      6608,
+      5431,
+      7410,
+      8149,
+      8537
+     ],
+     "Net Profit": [
+      3551,
+      3639,
+      3825,
+      3912,
+      4014,
+      4308,
+      4546,
+      4765,
+      4948,
+      4066,
+      5553,
+      6081,
+      6367
+     ],
+     "EPS in Rs": [
+      5.86,
+      5.89,
+      6.18,
+      6.32,
+      6.46,
+      6.86,
+      7.21,
+      7.56,
+      7.84,
+      6.39,
+      8.78,
+      9.61,
+      10.06
+     ],
+     "Gross NPA %": [
+      0.91,
+      0.95,
+      0.85,
+      0.86,
+      1.06,
+      1.12,
+      0.96,
+      1.03,
+      1.24,
+      1.21,
+      1.01,
+      0.96,
+      1.06
+     ],
+     "Net NPA %": [
+      0.31,
+      0.37,
+      0.37,
+      0.38,
+      0.46,
+      0.48,
+      0.44,
+      0.5,
+      0.6,
+      0.47,
+      0.41,
+      0.39,
+      0.42
+     ]
+    }
+   },
+   "annual": {
+    "headers": [
+     "Mar 2015",
+     "Mar 2016",
+     "Mar 2017",
+     "Mar 2018",
+     "Mar 2019",
+     "Mar 2020",
+     "Mar 2021",
+     "Mar 2022",
+     "Mar 2023",
+     "Mar 2024",
+     "Mar 2025",
+     "Mar 2026"
+    ],
+    "pl": {
+     "Revenue": [
+      5392,
+      7299,
+      9970,
+      12746,
+      18487,
+      26375,
+      26673,
+      31633,
+      41411,
+      54972,
+      68832,
+      81985
+     ],
+     "Interest": [
+      2274,
+      2959,
+      3853,
+      4696,
+      6723,
+      9608,
+      9519,
+      9848,
+      12701,
+      18886,
+      24991,
+      28899
+     ],
+     "Expenses": [
+      1752,
+      2354,
+      3250,
+      4115,
+      5454,
+      9159,
+      10839,
+      11880,
+      12693,
+      16099,
+      20878,
+      25998
+     ],
+     "Financing Profit": [
+      1367,
+      1986,
+      2867,
+      3935,
+      6310,
+      7609,
+      6314,
+      9905,
+      16018,
+      19987,
+      22963,
+      27088
+     ],
+     "Other Income": [
+      26,
+      35,
+      22,
+      10,
+      13,
+      8,
+      3,
+      -17,
+      -5,
+      6,
+      -2,
+      -263
+     ],
+     "Depreciation": [
+      36,
+      56,
+      71,
+      102,
+      144,
+      295,
+      325,
+      385,
+      485,
+      683,
+      881,
+      1009
+     ],
+     "Profit before tax": [
+      1357,
+      1965,
+      2817,
+      3843,
+      6179,
+      7322,
+      5992,
+      9504,
+      15528,
+      19310,
+      22080,
+      25817
+     ],
+     "Net Profit": [
+      898,
+      1279,
+      1836,
+      2496,
+      3995,
+      5264,
+      4420,
+      7028,
+      11508,
+      14451,
+      16779,
+      19332
+     ],
+     "EPS in Rs": [
+      1.79,
+      2.37,
+      3.34,
+      4.32,
+      6.91,
+      8.75,
+      7.33,
+      11.61,
+      19.01,
+      23.35,
+      26.77,
+      30.56
+     ]
+    },
+    "bs": {
+     "Equity Capital": [
+      50,
+      54,
+      109,
+      115,
+      115,
+      120,
+      120,
+      121,
+      121,
+      124,
+      124,
+      622
+     ],
+     "Reserves": [
+      4750,
+      7373,
+      9491,
+      15733,
+      19582,
+      32208,
+      36798,
+      43592,
+      54251,
+      76572,
+      96569,
+      113377
+     ],
+     "Borrowings": [
+      26655,
+      37025,
+      49250,
+      66557,
+      101588,
+      129806,
+      131634,
+      165232,
+      216690,
+      293346,
+      361249,
+      435112
+     ],
+     "Other Liabilities": [
+      1325,
+      2522,
+      4881,
+      2393,
+      2948,
+      2257,
+      2918,
+      3561,
+      4164,
+      5700,
+      8185,
+      10841
+     ],
+     "Total Liabilities": [
+      32780,
+      46973,
+      63731,
+      84798,
+      124233,
+      164391,
+      171470,
+      212505,
+      275226,
+      375742,
+      466127,
+      559952
+     ],
+     "Fixed Assets": [
+      252,
+      290,
+      366,
+      470,
+      695,
+      1321,
+      1316,
+      1716,
+      2308,
+      3250,
+      3780,
+      3947
+     ],
+     "CWIP": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      51,
+      34,
+      80,
+      43,
+      41,
+      119
+     ],
+     "Investments": [
+      326,
+      1029,
+      4070,
+      3139,
+      8599,
+      17544,
+      18397,
+      12246,
+      22752,
+      30881,
+      34441,
+      30578
+     ],
+     "Other Assets": [
+      32201,
+      45654,
+      59295,
+      81189,
+      114939,
+      145526,
+      151707,
+      198509,
+      250087,
+      341568,
+      427865,
+      525309
+     ]
+    },
+    "cf": {
+     "Cash from Operating Activity": [
+      -7064,
+      -9870,
+      -10439,
+      -20566,
+      -29062,
+      -24412,
+      -807,
+      -37029,
+      -42112,
+      -72760,
+      -67792,
+      -65790
+     ],
+     "Cash from Investing Activity": [
+      -360,
+      -687,
+      -3047,
+      1075,
+      -5379,
+      -8758,
+      -429,
+      6347,
+      -10394,
+      -7171,
+      -2765,
+      -3389
+     ],
+     "Cash from Financing Activity": [
+      6867,
+      11656,
+      12513,
+      19503,
+      34449,
+      34167,
+      1741,
+      32240,
+      50675,
+      82415,
+      70165,
+      67433
+     ],
+     "Free Cash Flow": [
+      -7129,
+      -9964,
+      -10587,
+      -20700,
+      -29428,
+      -24912,
+      -1105,
+      -37644,
+      -42970,
+      -73759,
+      -68837,
+      -66686
+     ]
+    },
+    "ratios": {}
+   },
+   "announcements": [
+    {
+     "date": "2026-10-26",
+     "title": "Analyst / Investor Meet - Intimation",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd352f0e-ac9c-4c6d-94cd-6b50802c665b.pdf"
+    },
+    {
+     "date": "2026-10-23",
+     "title": "Investor Meet Outcome - Q2 FY27 earnings call transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7873abcb-7f97-487d-a474-028b0a26feea.pdf"
+    },
+    {
+     "date": "2026-10-21",
+     "title": "Allotment of 2,12,000 secured NCDs worth Rs. 2,120 crore, maturing 21 October 2031",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bb76cad-5a8c-42c8-8aa3-6d81edf31bf6.pdf"
+    },
+    {
+     "date": "2026-10-19",
+     "title": "Investor Meet Outcome - Q2 FY2027 results conference call held; presentation and audio shared",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=adefbbb0-caa9-46a5-91aa-41c5359a7271.pdf"
+    },
+    {
+     "date": "2026-10-19",
+     "title": "Change in Management - Prashant Verma re-appointed CISO from 1 February 2027 for three years",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb4bfa8c-5285-4b6f-86c3-852bf82c8015.pdf"
+    }
+   ],
+   "concalls": [
+    {
+     "period": "Oct 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7873abcb-7f97-487d-a474-028b0a26feea.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7c0f169-e396-4a7d-a57d-b1f7c47f6290.pdf"
+    },
+    {
+     "period": "Aug 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b101e24e-b807-4c74-9025-90009f4b47a5.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12138db5-13e0-4417-a325-d6d8bffa5cb2.pdf"
+    },
+    {
+     "period": "Apr 2026",
+     "transcript": "https://cms-assets.bajajfinserv.in/is/content/bajajfinance/bajaj-finance-q4-fy26-earnings-conference-call-transcript?scl=1&fmt=pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be6ffd5d-c69b-4fcf-8214-1a6f302c6794.pdf"
+    },
+    {
+     "period": "Feb 2026",
+     "transcript": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6eb34dc2-bde9-4df5-8b93-aad3d461140e.pdf",
+     "ppt": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d213b0e9-5f1c-48ab-b21f-664f669f3a95.pdf"
+    }
+   ],
+   "annualReports": [
+    {
+     "year": "2026",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a2357f0b-2828-4790-8a02-61064bd1929b.pdf"
+    },
+    {
+     "year": "2025",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0670e08f-bc55-4155-9cbe-89e4637b3b05.pdf"
+    }
+   ],
+   "about": "India's largest private-sector NBFC, lending across retail, SME and commercial segments; also accepts public and corporate deposits."
+  }
+ }
+}

@@ -1,0 +1,464 @@
+{
+ "symbol": "INFY",
+ "preparedAt": "2026-10-30T23:45:00+05:30",
+ "method": "Evidence extracted at build time from company-published press releases, fact sheets and earnings-call transcripts (infosys.com, BSE/NSE filings). Live mode re-derives this with the LLM extraction pipeline over the same document types. No broker, news or model-knowledge inputs.",
+ "documents": {
+  "pr_q2fy27": {
+   "title": "Q2 FY27 press release (IFRS-USD)",
+   "date": "2026-10-23",
+   "period": "Q2 FY27",
+   "type": "press_release",
+   "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q2/documents/ifrs-usd-press-release.pdf"
+  },
+  "fs_q2fy27": {
+   "title": "Q2 FY27 fact sheet",
+   "date": "2026-10-23",
+   "period": "Q2 FY27",
+   "type": "investor_presentation",
+   "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q2/documents/fact-sheet.pdf"
+  },
+  "pr_q1fy27": {
+   "title": "Q1 FY27 press release (IFRS-INR)",
+   "date": "2026-07-23",
+   "period": "Q1 FY27",
+   "type": "press_release",
+   "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q1/documents/ifrs-inr-press-release.pdf"
+  },
+  "pc_q1fy27": {
+   "title": "Q1 FY27 press-conference transcript",
+   "date": "2026-07-23",
+   "period": "Q1 FY27",
+   "type": "transcript",
+   "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q1/documents/transcripts/press-conference.pdf"
+  },
+  "cc_q4fy26": {
+   "title": "Q4 FY26 earnings-call transcript (BSE filing)",
+   "date": "2026-04",
+   "period": "Q4 FY26",
+   "type": "transcript",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2ab7badf-388c-4dab-bfcc-3e128677734c.pdf"
+  },
+  "pr_q3fy26": {
+   "title": "Q3 FY26 press release (IFRS-INR)",
+   "date": "2026-01-14",
+   "period": "Q3 FY26",
+   "type": "press_release",
+   "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2025-2026/q3/documents/ifrs-inr-press-release.pdf"
+  },
+  "cc_q3fy26": {
+   "title": "Q3 FY26 earnings-call transcript",
+   "date": "2026-01-14",
+   "period": "Q3 FY26",
+   "type": "transcript",
+   "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2025-2026/q3/documents/transcripts/earningscall.pdf"
+  },
+  "pr_q2fy26": {
+   "title": "Q2 FY26 press release (IFRS-INR)",
+   "date": "2025-10-16",
+   "period": "Q2 FY26",
+   "type": "press_release",
+   "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2025-2026/q2/documents/ifrs-inr-press-release.pdf"
+  },
+  "cc_q2fy26": {
+   "title": "Q2 FY26 earnings-call transcript (NSE filing)",
+   "date": "2025-10-16",
+   "period": "Q2 FY26",
+   "type": "transcript",
+   "url": "https://nsearchives.nseindia.com/corporate/Infosys_21102025214121_SEfiling_Earningscalltranscript_q2.pdf"
+  },
+  "ar_fy26": {
+   "title": "Integrated Annual Report 2025-26",
+   "date": "2026-05",
+   "period": "FY26",
+   "type": "annual_report",
+   "url": "https://www.infosys.com/investors/reports-filings/annual-report/annual/documents/infosys-ar-26.pdf"
+  }
+ },
+ "business": {
+  "summary": "IT services and consulting. Revenue is overwhelmingly software services (₹46,938 cr of ₹49,244 cr in Q2 FY27), with products & platforms (Finacle etc.) the remainder. Financial Services is the largest vertical; North America the largest geography.",
+  "segments": [
+   {
+    "name": "Financial Services",
+    "value": 13774,
+    "period": "Q2 FY27",
+    "doc": "pr_q2fy27",
+    "loc": "segment table (results filing)"
+   },
+   {
+    "name": "Manufacturing",
+    "value": 7913,
+    "period": "Q2 FY27",
+    "doc": "pr_q2fy27",
+    "loc": "segment table (results filing)"
+   },
+   {
+    "name": "Other verticals",
+    "value": 27557,
+    "period": "Q2 FY27",
+    "doc": "pr_q2fy27",
+    "loc": "derived: total ₹49,244 cr less the two named verticals",
+    "derived": true
+   }
+  ],
+  "evidence": [
+   {
+    "claim": "Software services ₹46,938 cr; products & platforms ₹2,306 cr of ₹49,244 cr revenue (Q2 FY27).",
+    "doc": "pr_q2fy27",
+    "loc": "revenue disaggregation note, consolidated statements"
+   }
+  ]
+ },
+ "guidance": [
+  {
+   "id": "fy26-rev-q1",
+   "fy": "FY26",
+   "metric": "revenue_growth_cc",
+   "label": "Revenue growth (constant currency)",
+   "low": 1,
+   "high": 3,
+   "unit": "%",
+   "givenIn": "Q1 FY26",
+   "date": "2025-07",
+   "type": "explicit",
+   "doc": "cc_q2fy26",
+   "loc": "Q&A — 'The previous guidance was 1% to 3%'",
+   "note": "Recovered from the following call, where management restated the prior range."
+  },
+  {
+   "id": "fy26-rev-q2",
+   "fy": "FY26",
+   "metric": "revenue_growth_cc",
+   "label": "Revenue growth (constant currency)",
+   "low": 2,
+   "high": 3,
+   "unit": "%",
+   "givenIn": "Q2 FY26",
+   "date": "2025-10-16",
+   "type": "explicit",
+   "doc": "pr_q2fy26",
+   "loc": "p.1 — Guidance for FY26"
+  },
+  {
+   "id": "fy26-rev-q3",
+   "fy": "FY26",
+   "metric": "revenue_growth_cc",
+   "label": "Revenue growth (constant currency)",
+   "low": 3,
+   "high": 3.5,
+   "unit": "%",
+   "givenIn": "Q3 FY26",
+   "date": "2026-01-14",
+   "type": "explicit",
+   "doc": "pr_q3fy26",
+   "loc": "p.1 — Guidance for FY26"
+  },
+  {
+   "id": "fy26-opm",
+   "fy": "FY26",
+   "metric": "operating_margin",
+   "label": "Operating margin",
+   "low": 20,
+   "high": 22,
+   "unit": "%",
+   "givenIn": "Q2 FY26",
+   "date": "2025-10-16",
+   "type": "explicit",
+   "doc": "pr_q2fy26",
+   "loc": "p.1 — Guidance for FY26 (retained through the year)"
+  },
+  {
+   "id": "fy27-rev-q4",
+   "fy": "FY27",
+   "metric": "revenue_growth_cc",
+   "label": "Revenue growth (constant currency)",
+   "low": 1.5,
+   "high": 3.5,
+   "unit": "%",
+   "givenIn": "Q4 FY26",
+   "date": "2026-04",
+   "type": "explicit",
+   "doc": "cc_q4fy26",
+   "loc": "CEO opening remarks — FY27 guidance"
+  },
+  {
+   "id": "fy27-rev-q1",
+   "fy": "FY27",
+   "metric": "revenue_growth_cc",
+   "label": "Revenue growth (constant currency)",
+   "low": 1.5,
+   "high": 3.0,
+   "unit": "%",
+   "givenIn": "Q1 FY27",
+   "date": "2026-07-23",
+   "type": "explicit",
+   "doc": "pr_q1fy27",
+   "loc": "p.1 — Guidance for FY27"
+  },
+  {
+   "id": "fy27-rev-q2",
+   "fy": "FY27",
+   "metric": "revenue_growth_cc",
+   "label": "Revenue growth (constant currency)",
+   "low": 1.0,
+   "high": 2.0,
+   "unit": "%",
+   "givenIn": "Q2 FY27",
+   "date": "2026-10-23",
+   "type": "explicit",
+   "doc": "pr_q2fy27",
+   "loc": "p.1 — Guidance for FY 27"
+  },
+  {
+   "id": "fy27-opm-q4",
+   "fy": "FY27",
+   "metric": "operating_margin",
+   "label": "Operating margin",
+   "low": 20,
+   "high": 22,
+   "unit": "%",
+   "givenIn": "Q4 FY26",
+   "date": "2026-04",
+   "type": "explicit",
+   "doc": "cc_q4fy26",
+   "loc": "CFO remarks — margin guidance for the year"
+  },
+  {
+   "id": "fy27-opm-q2",
+   "fy": "FY27",
+   "metric": "operating_margin",
+   "label": "Operating margin",
+   "low": 20,
+   "high": 22,
+   "unit": "%",
+   "givenIn": "Q2 FY27",
+   "date": "2026-10-23",
+   "type": "explicit",
+   "doc": "pr_q2fy27",
+   "loc": "p.1 — Guidance for FY 27 (retained)"
+  }
+ ],
+ "actuals": [
+  {
+   "metric": "revenue_growth_cc",
+   "scope": "quarter_yoy",
+   "period": "Q2 FY26",
+   "value": 2.9,
+   "unit": "%",
+   "doc": "pr_q2fy26",
+   "loc": "p.1"
+  },
+  {
+   "metric": "revenue_growth_cc",
+   "scope": "quarter_yoy",
+   "period": "Q3 FY26",
+   "value": 1.7,
+   "unit": "%",
+   "doc": "pr_q3fy26",
+   "loc": "p.1"
+  },
+  {
+   "metric": "revenue_growth_cc",
+   "scope": "quarter_yoy",
+   "period": "Q4 FY26",
+   "value": 4.1,
+   "unit": "%",
+   "doc": "cc_q4fy26",
+   "loc": "CEO opening remarks"
+  },
+  {
+   "metric": "revenue_growth_cc",
+   "scope": "quarter_yoy",
+   "period": "Q1 FY27",
+   "value": 2.4,
+   "unit": "%",
+   "doc": "pr_q1fy27",
+   "loc": "p.1"
+  },
+  {
+   "metric": "revenue_growth_cc",
+   "scope": "quarter_yoy",
+   "period": "Q2 FY27",
+   "value": 1.5,
+   "unit": "%",
+   "doc": "pr_q2fy27",
+   "loc": "p.1"
+  },
+  {
+   "metric": "revenue_growth_cc",
+   "scope": "fy",
+   "period": "FY26",
+   "value": 3.1,
+   "unit": "%",
+   "doc": "cc_q4fy26",
+   "loc": "CEO opening remarks — full-year growth"
+  },
+  {
+   "metric": "revenue_growth_cc",
+   "scope": "ytd",
+   "period": "H1 FY27",
+   "value": 1.9,
+   "unit": "%",
+   "doc": "pr_q2fy27",
+   "loc": "p.1 — six months ended Sep 30, 2026"
+  },
+  {
+   "metric": "operating_margin",
+   "scope": "fy",
+   "period": "FY26",
+   "value": 21.0,
+   "unit": "%",
+   "doc": "ar_fy26",
+   "loc": "Financial capital — adjusted operating margin",
+   "note": "Adjusted for the one-time labour-code charge"
+  },
+  {
+   "metric": "operating_margin",
+   "scope": "quarter",
+   "period": "Q1 FY27",
+   "value": 21.1,
+   "unit": "%",
+   "doc": "pr_q1fy27",
+   "loc": "p.1"
+  },
+  {
+   "metric": "operating_margin",
+   "scope": "quarter",
+   "period": "Q2 FY27",
+   "value": 21.0,
+   "unit": "%",
+   "doc": "pr_q2fy27",
+   "loc": "p.1"
+  },
+  {
+   "metric": "operating_margin",
+   "scope": "ytd",
+   "period": "H1 FY27",
+   "value": 21.0,
+   "unit": "%",
+   "doc": "pr_q2fy27",
+   "loc": "p.1"
+  }
+ ],
+ "kpis": [
+  {
+   "label": "AI revenue (% of total)",
+   "series": [
+    {
+     "period": "Q1 FY27",
+     "value": 8.2,
+     "doc": "pr_q1fy27",
+     "loc": "p.1 headline"
+    },
+    {
+     "period": "Q2 FY27",
+     "value": 10.5,
+     "doc": "fs_q2fy27",
+     "loc": "p.1 tiles"
+    }
+   ],
+   "unit": "%"
+  },
+  {
+   "label": "Large-deal TCV ($ bn)",
+   "series": [
+    {
+     "period": "Q2 FY26",
+     "value": 3.1,
+     "doc": "pr_q2fy26",
+     "loc": "p.1"
+    },
+    {
+     "period": "Q3 FY26",
+     "value": 4.8,
+     "doc": "pr_q3fy26",
+     "loc": "p.1 headline"
+    },
+    {
+     "period": "Q1 FY27",
+     "value": 3.6,
+     "doc": "pr_q1fy27",
+     "loc": "p.1"
+    },
+    {
+     "period": "Q2 FY27",
+     "value": 5.2,
+     "doc": "pr_q2fy27",
+     "loc": "p.1"
+    }
+   ],
+   "unit": "$bn"
+  },
+  {
+   "label": "FCF as % of net profit",
+   "series": [
+    {
+     "period": "Q2 FY26",
+     "value": 131.1,
+     "doc": "pr_q2fy26",
+     "loc": "p.1"
+    },
+    {
+     "period": "Q3 FY26",
+     "value": 113,
+     "doc": "cc_q3fy26",
+     "loc": "CFO remarks (adjusted for labour codes)"
+    },
+    {
+     "period": "Q1 FY27",
+     "value": 116.4,
+     "doc": "pr_q1fy27",
+     "loc": "p.1"
+    },
+    {
+     "period": "Q2 FY27",
+     "value": 113.3,
+     "doc": "pr_q2fy27",
+     "loc": "p.1 CFO quote"
+    }
+   ],
+   "unit": "%"
+  }
+ ],
+ "commentary": [
+  {
+   "period": "Q2 FY26",
+   "theme": "Growth",
+   "tone": "positive",
+   "text": "Called Q2 a strong quarter with market-share gains; raised the bottom of the FY26 range (1–3% → 2–3%) while keeping the top unchanged.",
+   "doc": "cc_q2fy26",
+   "loc": "CEO opening remarks"
+  },
+  {
+   "period": "Q3 FY26",
+   "theme": "Growth",
+   "tone": "positive",
+   "text": "Raised FY26 guidance to 3–3.5% citing strong year-to-date performance and deal wins; flagged FY27 strength in Financial Services and EURS.",
+   "doc": "cc_q3fy26",
+   "loc": "CEO/CFO remarks"
+  },
+  {
+   "period": "Q4 FY26",
+   "theme": "Outlook",
+   "tone": "cautious",
+   "text": "Set FY27 at 1.5–3.5% and said H1 should be stronger than H2; cited measured client budgets, a large European manufacturing client's lower spend and lower onsite mix.",
+   "doc": "cc_q4fy26",
+   "loc": "CFO remarks — FY27 bridge"
+  },
+  {
+   "period": "Q1 FY27",
+   "theme": "Outlook",
+   "tone": "cautious",
+   "text": "Described the macro as uncertain and trimmed the FY27 top end to 3.0%; emphasised AI services momentum and pipeline.",
+   "doc": "pc_q1fy27",
+   "loc": "p.5"
+  },
+  {
+   "period": "Q2 FY27",
+   "theme": "AI & deals",
+   "tone": "positive",
+   "text": "Headline narrative led with AI revenue (10.5% of revenue, up 29% QoQ) and $5.2 bn large-deal TCV, while FY27 revenue guidance was cut again to 1–2%.",
+   "doc": "pr_q2fy27",
+   "loc": "p.1"
+  }
+ ]
+}

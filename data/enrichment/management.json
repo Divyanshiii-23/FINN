@@ -1,0 +1,23 @@
+{
+  "_note": "Push-side enrichment for management changes. The brief explicitly allows secondary/professional sources here (unlike the research side). Each entry is keyed SYMBOL:effective-date and cites its sources. Live mode extracts the Reg-30 'brief profile' from the filing PDF instead.",
+  "HDFCBANK:2026-10-27": {
+    "role": "MD & CEO",
+    "incoming": "Anup Bagchi",
+    "outgoing": "Sashidhar Jagdishan",
+    "effective": "2026-10-27",
+    "summary": "ICICI Group veteran of 34 years (joined 1992); comes from ICICI Prudential Life Insurance, where he was MD & CEO from June 2023.",
+    "points": [
+      "Earlier roles: MD & CEO of ICICI Securities; Executive Director, ICICI Bank",
+      "RBI-approved three-year term, 27 Oct 2026 – 26 Oct 2029; additional director from 2 Oct 2026, pending shareholder approval",
+      "Succession was announced on 1 Oct 2026 — Jagdishan told the board on 29 Aug he would not seek reappointment",
+      "The bank had sent two names to RBI: Bagchi and Deputy MD Kaizad Bharucha"
+    ],
+    "preannounced": true,
+    "sources": [
+      { "label": "Business Today — 1 Oct 2026", "url": "https://www.businesstoday.in/industry/banks/story/meet-anup-bagchi-the-icici-veteran-picked-as-hdfc-bank-ceo-559154-2026-10-01" },
+      { "label": "exchange4media — 27 Oct 2026", "url": "https://www.exchange4media.com/people-movement-news/anup-bagchi-takes-charge-as-hdfc-bank-ceo-and-md-159550.html" },
+      { "label": "Choice India — RBI approval", "url": "https://choiceindia.com/news/hdfc-bank-appoints-anup-bagchi-md-ceo" },
+      { "label": "Outlook Business — 34 years at ICICI", "url": "https://www.outlookbusiness.com/corporate/anup-bagchis-road-to-hdfc-bank-runs-through-34-years-of-icici" }
+    ]
+  }
+}

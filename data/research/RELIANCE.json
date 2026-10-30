@@ -1,0 +1,29 @@
+{
+  "symbol": "RELIANCE",
+  "preparedAt": "2026-10-30T23:45:00+05:30",
+  "method": "Segment data from the company's Q1 FY27 media release (ril.com). Q2 FY27 (filed 30 Oct 2026) was not yet retrievable in the snapshot; live mode parses the filing.",
+  "documents": {
+    "mr_q1fy27": { "title": "Q1 FY27 media release — financial & operational performance", "date": "2026-07-17", "period": "Q1 FY27", "type": "press_release", "url": "https://www.ril.com/sites/default/files/2026-07/Media_Release_RIL_Q1_FY2026-27_Financial_and_Operational_Performance.pdf" },
+    "pr_q2fy27": { "title": "Q2 FY27 press release (BSE filing, 30 Oct 2026)", "date": "2026-10-30", "period": "Q2 FY27", "type": "press_release", "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aacc5fc7-25e5-4901-b682-d9911fe1d21b.pdf" }
+  },
+  "business": {
+    "summary": "Conglomerate across oil-to-chemicals (O2C), digital services (Jio Platforms), retail and upstream oil & gas. In Q1 FY27, O2C was ~59% of segment revenue but Jio was the largest EBITDA contributor.",
+    "segmentsBasis": "Segment revenue, Q1 FY27 (₹ cr). EBITDA shown alongside.",
+    "segments": [
+      { "name": "Oil to Chemicals", "value": 201803, "ebitda": 17010, "period": "Q1 FY27", "doc": "mr_q1fy27", "loc": "O2C segment table" },
+      { "name": "Retail", "value": 79745, "ebitda": 6309, "period": "Q1 FY27", "doc": "mr_q1fy27", "loc": "Reliance Retail table (revenue from operations)" },
+      { "name": "Jio Platforms", "value": 39173, "ebitda": 20865, "period": "Q1 FY27", "doc": "mr_q1fy27", "loc": "JPL table (revenue from operations)" },
+      { "name": "Oil & Gas (E&P)", "value": 6298, "ebitda": 4973, "period": "Q1 FY27", "doc": "mr_q1fy27", "loc": "Oil and Gas segment table" }
+    ],
+    "evidence": [
+      { "claim": "Consolidated EBITDA ₹54,067 cr in Q1 FY27, +10.1% YoY; EBITDA margin 15.9% vs 18.0% a year earlier (−210 bps).", "doc": "mr_q1fy27", "loc": "Consolidated financial results table" }
+    ]
+  },
+  "guidance": [],
+  "guidanceNote": "No explicit numerical guidance on revenue, margins or capex was found in the retrieved disclosures. FINN does not infer guidance from tone.",
+  "actuals": [],
+  "kpis": [],
+  "commentary": [
+    { "period": "Q2 FY27", "theme": "Headline", "tone": "positive", "text": "Press-release title claims record quarterly PAT of ₹29,550 cr and completion of the Jio Platforms IPO (28 Oct 2026). Not yet reconciled to the results statement in the snapshot.", "doc": "pr_q2fy27", "loc": "filing title" }
+  ]
+}
