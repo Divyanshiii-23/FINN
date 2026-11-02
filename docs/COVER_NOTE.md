@@ -41,5 +41,7 @@ On Infosys, it shows FY26 guidance raised twice and delivered, then FY27 cut twi
 Thank you for your time.
 
 Divyanshi Agnihotri
-B.Tech, Biological Sciences & Bioengineering, IIT Kanpur
+
+230388
+
 divyanshi23@iitk.ac.in
