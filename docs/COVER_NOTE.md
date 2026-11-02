@@ -7,6 +7,7 @@ Please find my submission for the FINN build challenge.
 
 - **Prototype (mobile-first):** <https://finn-two-wheat.vercel.app>
 - **Repository:** <https://github.com/Divyanshiii-23/FINN>
+
 **What I built**
 
 FINN treats a day's filings as a briefing. It is not a dashboard.
