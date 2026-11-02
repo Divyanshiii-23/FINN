@@ -3,7 +3,7 @@ import type { CompanyData, Provenance } from "../types";
 import snapshotJson from "../../../data/snapshot/companies.json";
 import { yahooPrice } from "./yahoo";
 import { bseAnnouncements } from "./bse";
-import { screenerCompany } from "./screener";
+import { screenerCompany, screenerPrice } from "./screener";
 
 type SnapCompany = Omit<CompanyData, "provenance"> & { source: { url: string; capturedAt: string } };
 const SNAP = snapshotJson as unknown as { capturedAt: string; companies: Record<string, SnapCompany> };
@@ -77,7 +77,20 @@ export async function getCompany(symbolIn: string, want: { prices?: boolean; ann
   if (priceRes.status === "fulfilled") {
     company.price = priceRes.value;
     company.provenance.price = { mode: "live", provider: "Yahoo Finance (EOD chart API)", asOf: now, url: `https://finance.yahoo.com/quote/${symbol}.NS` };
-  } else if (snap?.price) {
+  } else if (fundamentals && want.prices !== false) {
+    // Yahoo unavailable (often HTTP 429): screener's own EOD chart, then its current quote.
+    try {
+      company.price = await screenerPrice(fundamentals.ids);
+      company.provenance.price = { mode: "live", provider: "screener.in EOD chart (Yahoo unavailable)", asOf: now, url: fundamentals.url };
+    } catch (e) {
+      failures.push(String((e as Error).message));
+      if (fundamentals.price != null) {
+        company.price = { value: fundamentals.price, changePct: null, date: now.slice(0, 10), kind: "intraday", asOfText: "current quote on screener.in (no history)" };
+        company.provenance.price = { mode: "live", provider: "screener.in quote", asOf: now, url: fundamentals.url, note: "No price history available — volume alerts paused" };
+      }
+    }
+  }
+  if (!company.price && snap?.price) {
     company.price = snap.price;
     company.provenance.price = snapProv("screener.in quote", snap, `Price as shown on screener.in (${snap.price.asOfText}). Volume history not in snapshot — live mode adds it.`);
   }

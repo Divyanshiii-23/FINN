@@ -32,13 +32,25 @@ await check("screener.in company page (TCS)", async () => {
   const has = ["section id=\"quarters\"", "section id=\"profit-loss\"", "section id=\"balance-sheet\"", "section id=\"cash-flow\"", "id=\"documents\"", "concall"].map((k) => `${k.split("\"")[1] ?? k}:${html.includes(k) ? "✓" : "✗"}`);
   return has.join(" ");
 });
+await check("screener.in EOD chart (fallback for Yahoo)", async () => {
+  const html = await (await get("https://www.screener.in/company/RELIANCE/consolidated/")).text();
+  const ids = [...new Set([html.match(/data-company-id="(\d+)"/)?.[1], html.match(/data-warehouse-id="(\d+)"/)?.[1], html.match(/\/company\/source\/quarter\/(\d+)\//)?.[1]].filter(Boolean))];
+  for (const id of ids) {
+    try {
+      const j = await (await get(`https://www.screener.in/api/company/${id}/chart/?q=Price-Volume&days=120`)).json();
+      const p = j.datasets?.find((d) => /price/i.test(d.metric))?.values ?? [], v = j.datasets?.find((d) => /volume/i.test(d.metric))?.values ?? [];
+      if (p.length) return `id ${id}: ${p.length} price bars, ${v.length} volume bars, last ${JSON.stringify(p.at(-1))}`;
+    } catch { /* try next id */ }
+  }
+  throw new Error(`no chart data for ids ${ids.join(",")}`);
+});
 await check("screener.in search (bajaj)", async () => {
   const j = await (await get("https://www.screener.in/api/company/search/?q=bajaj&v=3&fts=1")).json();
   return `${j.length} hits, first ${j[0]?.url}`;
 });
 if (app) {
   await check("FINN /api/health", async () => JSON.stringify(await (await get(`${app}/api/health`)).json()));
-  await check("FINN /api/briefing (live)", async () => { const b = await (await get(`${app}/api/briefing?window=168`)).json(); return `mode=${b.mode} items=${b.items.length} sources=${b.sources.map((s) => s.note).join(" | ")}`; });
+  await check("FINN /api/briefing (live)", async () => { const b = await (await get(`${app}/api/briefing?window=168`)).json(); const withHist = b.holdings.filter((h) => h.price?.history?.length > 20).length; return `mode=${b.mode} items=${b.items.length} prices=${b.sources[1]?.provider} (${b.sources[1]?.note?.split(" ·")[0]}) holdings-with-history=${withHist}/15 market-alerts=${b.market.length}`; });
   await check("FINN /api/research/TCS (outside snapshot)", async () => { const r = await (await get(`${app}/api/research/TCS`)).json(); return `snapshot=${r.snapshot.status} trajectory=${r.trajectory.status} cash=${r.cash.status} narrative=${r.narrative.status} tracks=${r.narrative.data.tracks.length} warnings=${r.warnings.join("; ")}`; });
 }
 for (const r of results) console.log(`${r.ok ? "PASS" : "FAIL"}  ${r.name.padEnd(40)} ${String(r.ms).padStart(5)}ms  ${r.detail}`);

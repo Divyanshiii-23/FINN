@@ -21,8 +21,15 @@ const istDate = (epochSec: number) => new Date(epochSec * 1000 + 5.5 * 3600e3).t
  */
 export async function yahooPrice(symbol: string): Promise<PriceInfo> {
   return cached(`yahoo:${symbol}`, 15 * 60e3, async () => {
-    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}.NS?range=3mo&interval=1d`;
-    const j = await getJson<ChartResponse>(url, "Yahoo Finance", { revalidate: 900 });
+    // Yahoo rate-limits (HTTP 429) unauthenticated callers; try both hosts before giving up.
+    let j: ChartResponse | null = null, lastErr: unknown;
+    for (const host of ["query1", "query2"]) {
+      try {
+        j = await getJson<ChartResponse>(`https://${host}.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}.NS?range=3mo&interval=1d`, "Yahoo Finance", { revalidate: 900 });
+        break;
+      } catch (e) { lastErr = e; }
+    }
+    if (!j) throw lastErr;
     const r = j.chart?.result?.[0];
     if (!r?.timestamp?.length) throw new SourceError("Yahoo Finance", j.chart?.error?.description ?? "no data for ticker");
     const q = r.indicators.quote[0];

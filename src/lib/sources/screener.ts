@@ -1,5 +1,5 @@
 import * as cheerio from "cheerio";
-import type { AnnualTable, Concall, QuarterTable, RawAnnouncement } from "../types";
+import type { AnnualTable, Concall, PriceBar, PriceInfo, QuarterTable, RawAnnouncement } from "../types";
 import { cached, getJson, getText, SourceError } from "./http";
 
 export interface ScreenerCompany {
@@ -17,6 +17,7 @@ export interface ScreenerCompany {
   annualReports: { year: string; url: string }[];
   url: string;
   consolidated: boolean;
+  ids: string[]; // company id / warehouse id, for the chart endpoint
 }
 
 const MONTHS: Record<string, number> = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 };
@@ -129,7 +130,35 @@ export function parseScreenerHtml(html: string, symbol: string, url: string, now
     annualReports,
     url,
     consolidated: url.includes("/consolidated/"),
+    ids: [...new Set([$("[data-company-id]").first().attr("data-company-id"), $("[data-warehouse-id]").first().attr("data-warehouse-id"), html.match(/\/company\/source\/quarter\/(\d+)\//)?.[1]].filter((x): x is string => !!x && /^\d+$/.test(x)))],
   };
+}
+
+interface ChartPayload { datasets?: { metric?: string; values?: [string, number | string, ...unknown[]][] }[] }
+
+/** Parse screener's price/volume chart JSON into EOD bars (pure; unit-tested). */
+export function parseScreenerChart(j: ChartPayload): PriceBar[] {
+  const ds = j.datasets ?? [];
+  const price = ds.find((d) => /price/i.test(d.metric ?? ""))?.values ?? [];
+  const vol = new Map((ds.find((d) => /volume/i.test(d.metric ?? ""))?.values ?? []).map((v) => [v[0], Number(v[1])]));
+  return price
+    .map(([date, close]) => ({ date: String(date).slice(0, 10), close: Number(close), volume: vol.has(date) && Number.isFinite(vol.get(date)) ? (vol.get(date) as number) : null }))
+    .filter((b) => /^\d{4}-\d{2}-\d{2}$/.test(b.date) && Number.isFinite(b.close) && b.close > 0);
+}
+
+/** EOD price + volume history from screener.in's chart API — the fallback when Yahoo rate-limits. */
+export async function screenerPrice(ids: string[]): Promise<PriceInfo> {
+  let last: unknown = new SourceError("screener.in chart", "no company id on page");
+  for (const id of ids) {
+    try {
+      const j = await getJson<ChartPayload>(`https://www.screener.in/api/company/${id}/chart/?q=Price-Volume&days=120`, "screener.in chart", { revalidate: 1800 });
+      const bars = parseScreenerChart(j);
+      if (bars.length < 2) throw new SourceError("screener.in chart", "too few bars");
+      const a = bars[bars.length - 2], b = bars[bars.length - 1];
+      return { value: b.close, changePct: ((b.close - a.close) / a.close) * 100, date: b.date, kind: "close", asOfText: `${b.date} close`, history: bars };
+    } catch (e) { last = e; }
+  }
+  throw last;
 }
 
 function trimTTM(t: { headers: string[]; rows: Record<string, (number | null)[]> }) {

@@ -64,3 +64,19 @@ describe("auto mode falls back per source", () => {
     vi.unstubAllGlobals(); vi.unstubAllEnvs();
   });
 });
+
+describe("screener chart fallback", () => {
+  it("parses price + volume datasets", async () => {
+    const { parseScreenerChart } = await import("@/lib/sources/screener");
+    const bars = parseScreenerChart({ datasets: [
+      { metric: "Price", values: [["2026-10-29", "1167.40"], ["2026-10-30", "1165.00"]] },
+      { metric: "Volume", values: [["2026-10-29", 14722247, { delivery: 50 }], ["2026-10-30", 9000000]] },
+    ] });
+    expect(bars).toEqual([{ date: "2026-10-29", close: 1167.4, volume: 14722247 }, { date: "2026-10-30", close: 1165, volume: 9000000 }]);
+  });
+  it("company ids are read from the page", async () => {
+    const { parseScreenerHtml } = await import("@/lib/sources/screener");
+    const c = parseScreenerHtml('<div id="company-info" data-company-id="2726" data-warehouse-id="6598251"></div><a href="/company/source/quarter/2726/6/2026/">x</a>', "RELIANCE", "u");
+    expect(c.ids).toEqual(["2726", "6598251"]);
+  });
+});
