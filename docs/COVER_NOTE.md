@@ -5,10 +5,8 @@ Hello ENAM team,
 
 Please find my submission for the FINN build challenge.
 
-- **Prototype (mobile-first):** <DEPLOYED_URL>
-- **Repository:** <GITHUB_URL>
-- **AI build history:** <CLAUDE_SHARE_LINK> (the full coding-agent session, including planning, data capture, debugging and QA)
-
+- **Prototype (mobile-first):** <https://finn-two-wheat.vercel.app>
+- **Repository:** <https://github.com/Divyanshiii-23/FINN>
 **What I built**
 
 FINN treats a day's filings as a briefing. It is not a dashboard.
@@ -28,7 +26,7 @@ On Infosys, it shows FY26 guidance raised twice and delivered, then FY27 cut twi
 
 **Trade-offs and what I left out**
 
-- My build environment had no network route to NSE, BSE or Yahoo. So the demo runs on a **real recorded snapshot**, captured on 30 Oct 2026 and checked against accounting identities. The live adapters are tested against fixtures, and a smoke script verifies them on a normal network.
+- The deployed app runs on live data: filings from BSE, financials and documents from screener.in, and end-of-day prices with fallbacks (Yahoo rate-limits server traffic, so prices fall back to screener.in’s EOD chart). Each source falls back independently to a real recorded snapshot from 30 Oct, and the UI labels whether each one is live or snapshot. Transcript extraction for tickers outside the demo set needs a free Gemini key; without one, FINN says so instead of guessing.
 - Volume alerts need live price history. Reliance's results filed on 30 Oct appear as a card with numbers pending, and the company's headline is labelled as an unverified claim.
 - I left out intraday data, news, broker estimates, user accounts and server-side push. None of them make "what changed, and does it matter?" any better.
 
